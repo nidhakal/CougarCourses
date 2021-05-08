@@ -1,0 +1,68 @@
+:root {
+    /* CSS HEX */
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff;
+}
+
+.cel_noto {
+    color: var(--celadon-blue);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.larger_text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.odd_row {
+    background-color: var(--powder-blue);
+    overflow: auto;
+}
+
+.even_row {
+    background-color: var(--honeydew);
+    overflow: auto;
+}
+
+.check_box{
+    width: 30px;
+    height: 30px;
+}
+
+.welcome{
+    padding-top: 2%;
+    font-family: "Arial Rounded MT Bold";
+    text-align: center;
+}
+
+#logo{
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.about{
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn-info{
+    color: red;
+}
+
+#controls{
+    margin-left: 40%;
+}
+
+.custom {
+    /*width: 78px !important;*/
+    /*align-content: center;*/
+    width: 78px !important;
+    vertical-align: middle;
+}
