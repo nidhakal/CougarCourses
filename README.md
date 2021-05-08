@@ -1,1 +1,1 @@
-# DegreePlanner
+# CougarCourses
