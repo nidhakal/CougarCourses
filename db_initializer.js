@@ -39,7 +39,7 @@ CScourseList = []
 jsonList.forEach(function (course) {
     courseList.push({
         "CRN": course["CRN"],
-        "Course_num": course["Course_num"],
+        "Course_num": course["Course #"],
         "Sc": course["Sc"],
         "Title": course["Title"],
         "Attribute": course["Attribute"],
@@ -57,7 +57,7 @@ jsonList.forEach(function (course) {
 jsonList1.forEach(function (course) {
     CScourseList.push({
         "CRN": course["CRN"],
-        "Course_num": course["Course_num"],
+        "Course_num": course["Course #"],
         "Sc": course["Sc"],
         "Title": course["Title"],
         "Attribute": course["Attribute"],
@@ -81,7 +81,7 @@ Course.insertMany(courseList, function (err) {
     }
 });
 
-CScourse.insertMany(courseList, function (err) {
+CScourse.insertMany(CScourseList, function (err) {
     if (err) {
         console.log(err);
     } else {

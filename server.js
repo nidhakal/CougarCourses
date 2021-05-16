@@ -45,6 +45,8 @@ const courseSchema = {
 };
 
 const Course = mongoose.model('Course', courseSchema);
+const CScourse = mongoose.model('CScourse', courseSchema);
+
 const userSchema= new mongoose.Schema(
     {
         username:{
@@ -115,11 +117,32 @@ app.get("/get_all_courses", function (req, res) {
     });
 });
 
+app.get("/get_cs_courses", function (req, res) {
+    // console.log(courseSchema)
+    CScourse.find(function (err, data) {
+        console.log(data)
+        if (err) {
+            res.send({
+                "message": "error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+    });
+});
+
+
 
 app.get('/course', function (req, res) {
     res.sendFile(__dirname + "/public/courses.html");
 });
-
+app.get('/majorcourse', function (req, res) {
+    res.sendFile(__dirname + "/public/CSmajor.html");
+});
 
 app.get('/get_movie_by_id', function (req, res) {
     Movie.findOne({"_id": req.query.movie_id}, function (err, data) {
