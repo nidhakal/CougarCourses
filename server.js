@@ -24,19 +24,27 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //Configure Mongoose
-mongoose.connect('mongodb://localhost:27017/movieDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost:27017/courseDB', {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set("useCreateIndex", true);
 
 
-const movieSchema = {
-    title: String,
-    rating: Number,
-    poster_path: String,
-    release_date: String,
-    overview: String,
+const courseSchema = {
+    CRN: String,
+    Course_num: String,
+    Sc: String,
+    Title: String,
+    Attribute: String,
+    Units: String,
+    CAP:String,
+    Enr: String,
+    Instructor: String,
+    Modality: String,
+    Days: String,
+    Times: String,
+    Room: String
 };
 
-const Movie = mongoose.model('Movie', movieSchema);
+const Course = mongoose.model('Course', courseSchema);
 const userSchema= new mongoose.Schema(
     {
         username:{
@@ -71,7 +79,7 @@ app.listen(3000, function () {
 });
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + "/public/movie_list.html");
+    res.sendFile(__dirname + "/public/.html");
 });
 
 app.get('/get_current_user', function (req,res){
@@ -89,8 +97,10 @@ app.get('/get_current_user', function (req,res){
     }
 });
 
-app.get("/get_all_movies", function (req, res) {
-    Movie.find(function (err, data) {
+app.get("/get_all_courses", function (req, res) {
+    // console.log(courseSchema)
+    Course.find(function (err, data) {
+        console.log(data)
         if (err) {
             res.send({
                 "message": "error",
@@ -104,6 +114,12 @@ app.get("/get_all_movies", function (req, res) {
         }
     });
 });
+
+
+app.get('/course', function (req, res) {
+    res.sendFile(__dirname + "/public/courses.html");
+});
+
 
 app.get('/get_movie_by_id', function (req, res) {
     Movie.findOne({"_id": req.query.movie_id}, function (err, data) {

@@ -4,33 +4,49 @@ const fs = require('fs');
 const rawdata = fs.readFileSync(__dirname + "/data.json");
 jsonList = JSON.parse(rawdata);
 
-mongoose.connect('mongodb://localhost:27017/movieDB', {useNewUrlParser: true}, function () {
+mongoose.connect('mongodb://localhost:27017/courseDB', {useNewUrlParser: true}, function () {
     console.log("db connected successful!")
 });
 
-const movieSchema = new mongoose.Schema({
-    title: String,
-    rating: Number,
-    poster_path: String,
-    release_date: String,
-    overview: String,
+const courseSchema = new mongoose.Schema({
+    CRN: String,
+    Course_num: String,
+    Sc: String,
+    Title: String,
+    Attribute: String,
+    Units: String,
+    CAP:String,
+    Enr: String,
+    Instructor: String,
+    Modality: String,
+    Days: String,
+    Times: String,
+    Room: String,
 })
 
-const Movie = mongoose.model('Movie', movieSchema);
+const Course = mongoose.model('Course', courseSchema);
 
-movieList = []
+courseList = []
 
-jsonList.forEach(function (movie) {
-    movieList.push({
-        "title": movie["title"],
-        "rating": movie["vote_average"],
-        "poster_path": 'http://image.tmdb.org/t/p/w342' + movie["poster_path"],
-        "release_date": movie["release_date"],
-        "overview": movie["overview"]
-    })
+jsonList.forEach(function (course) {
+    courseList.push({
+        "CRN": course["CRN"],
+        "Course_num": course["Course_num"],
+        "Sc": course["Sc"],
+        "Title": course["Title"],
+        "Attribute": course["Attribute"],
+        "Units": course["Units"],
+        "CAP": course["CAP"],
+        "Enr": course["Enr"],
+        "Instructor": course["Instructor"],
+        "Modality": course["Modality"],
+        "Days": course["Days"],
+        "Times": course["Times"],
+        "Room": course["Room"],
+    });
 });
 
-Movie.insertMany(movieList, function (err) {
+Course.insertMany(courseList, function (err) {
     if (err) {
         console.log(err);
     } else {
