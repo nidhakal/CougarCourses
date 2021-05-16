@@ -36,7 +36,7 @@ const movieSchema = {
     overview: String,
 };
 
-const Movie = mongoose.model('Movie', movieSchema);
+const Course = mongoose.model('Course', movieSchema);
 const userSchema= new mongoose.Schema(
     {
         username:{
@@ -89,36 +89,14 @@ app.get('/get_current_user', function (req,res){
     }
 });
 
-app.get("/get_all_movies", function (req, res) {
-    Movie.find(function (err, data) {
-        if (err) {
-            res.send({
-                "message": "error",
-                "data": []
-            });
-        } else {
-            res.send({
-                "message": "success",
-                "data": data
-            })
-        }
-    });
-});
-
-app.get('/get_movie_by_id', function (req, res) {
-    Movie.findOne({"_id": req.query.movie_id}, function (err, data) {
-        if (err) {
-            res.send({
-                "message": "error",
-                "data": {}
-            });
-        } else {
-            res.send({
-                "message": "success",
-                "data": data
-            })
-        }
-    });
+app.get("/edit", (req, res) => {
+    //A page can be viewed only after login
+    console.log(res.isAuthenticated());
+    if(req.isAuthenticated()){
+        res.sendFile(__dirname + "/src/movie_edit.html");
+    }else{
+        res.sendFile(__dirname + "/src/movie_edit.html");
+    }
 });
 
 app.get('/register', (req, res) => {
@@ -130,19 +108,35 @@ app.get('/register', (req, res) => {
 });
 
 app.post('/register', (req, res) => {
-    const newUser={username: req.body.username, fullname: req.body.fullname
+    const newUser = {
+        username: req.body.username,
+        fullname: req.body.fullname,
+        profile: req.body.profile,
+        brand: req.body.brand
     };
+
     User.register(
         newUser,
         req.body.password,
-        function(err, user){
-            if(err){
+        function (err, user) {
+            if(req.body.password!== req.body.confirm){
                 console.log(err);
-                res.redirect("/register?error="+err);
-            }else{
+                res.redirect("/register?error= Password must match" );
+            }
+            else{
+                const authenticate = passport.authenticate("local");
+                authenticate(req, res, function () {
+                    res.redirect("/")
+                });
+            }
+            if (err) {
+                res.redirect("/register?error=" + err);
+
+
+            } else {
                 //write into cookies, authenticate the requests
                 const authenticate = passport.authenticate("local");
-                authenticate(req,res, function (){
+                authenticate(req, res, function () {
                     res.redirect("/")
                 });
             }
@@ -150,7 +144,6 @@ app.post('/register', (req, res) => {
     );
 
 });
-
 
 app.get('/login', (req, res) => {
     if (req.query.error) {
@@ -161,22 +154,22 @@ app.get('/login', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    const user=new User({
-        username:req.body.username,
-        password:req.body.password
+    const user = new User({
+        username: req.body.username,
+        password: req.body.password
     });
     req.login(
         user,
-        function(err){
-            if(err){
+        function (err) {
+            if (err) {
                 console.log(err);
                 res.redirect('login?error=Invalid username or password');
-            }else{
+            } else {
                 const authenticate = passport.authenticate(
                     "local",
                     {
-                        successRedirect:"/",
-                        failureRedirect:"/login?error=Username and password don't match"
+                        successRedirect: "/",
+                        failureRedirect: "/login?error=Username and password don't match"
                     })
                 authenticate(req, res);
             }
@@ -185,24 +178,7 @@ app.post('/login', (req, res) => {
     )
 });
 
-
 app.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/');
-});
-
-
-app.get("/edit", (req, res) => {
-    //A page can be viewed only after login
-    console.log(res.isAuthenticated());
-    if(req.isAuthenticated()){
-        res.sendFile(__dirname + "/src/movie_edit.html");
-    }else{
-        res.sendFile(__dirname + "/src/movie_edit.html");
-    }
-});
-
-
-app.post('/like_movie', (req, res) => {
-    //Users need to login to like a movie
 });
