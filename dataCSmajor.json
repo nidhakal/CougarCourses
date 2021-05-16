@@ -247,6 +247,67 @@
       "Prereq.": "P=CSCI 140 OR 160 OR 170"
     },
     "Perm Only": "N"
+  },
+  {
+    "CRN": 20161,
+    "Course #": "MATH 120",
+    "Sc": 1,
+    "Title": "CALCULUS I",
+    "Attribute": "FA",
+    "Units": 1,
+    "CAP": 27,
+    "Enr": 27,
+    "Instructor": "Ali Maalaoui",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20162,
+    "Course #": "MATH 121",
+    "Sc": 1,
+    "Title": "CALCULUS II",
+    "Attribute": "FA",
+    "Units": 1,
+    "CAP": 27,
+    "Enr": 27,
+    "Instructor": "Ali Maalaoui",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+
+  {
+    "CRN": 20172,
+    "Course #": "MATH 114",
+    "Sc": 1,
+    "Title": "DISCRETE MATHEMATICS",
+    "Attribute": "FA",
+    "Units": 1,
+    "CAP": 27,
+    "Enr": 27,
+    "Instructor": "Ali Maalaoui",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+    },
+    "Perm Only": "N"
   }
+
+
+
 
 ]
