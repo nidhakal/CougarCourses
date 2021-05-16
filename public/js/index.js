@@ -56,6 +56,10 @@ function onCreate() {
     location.href = "/edit";
 }
 
+
+
+
+
 $(docuument).ready(function(){
     $.getJSON('/get_current_user').done(function() {
         console.log(data)

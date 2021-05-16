@@ -1,62 +1,306 @@
 [
   {
-    "adult": false,
-    "backdrop_path": "/hJuDvwzS0SPlsE6MNFOpznQltDZ.jpg",
-    "genre_ids": [
-      16,
-      12,
-      14,
-      10751,
-      28
-    ],
-    "id": 527774,
-    "original_language": "en",
-    "original_title": "Raya and the Last Dragon",
-    "overview": "Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when an evil force threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, that same evil has returned and it’s up to a lone warrior, Raya, to track down the legendary last dragon to restore the fractured land and its divided people.",
-    "popularity": 2934.407,
-    "poster_path": "/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg",
-    "release_date": "2021-03-03",
-    "title": "Raya and the Last Dragon",
-    "video": false,
-    "vote_average": 8.4,
-    "vote_count": 1654
+    "CRN": 38578,
+    "Course #": "CSCI 120",
+    "Sc": 1,
+    "Title": "INTRODUCTION TO COMPUTING",
+    "Attribute": "SP",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 22,
+    "Instructor": "Tricia Magee",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
   },
   {
-    "adult": false,
-    "backdrop_path": "/iopYFB1b6Bh7FWZh3onQhph1sih.jpg",
-    "genre_ids": [
-      28,
-      878
-    ],
-    "id": 399566,
-    "original_language": "en",
-    "original_title": "Godzilla vs. Kong",
-    "overview": "In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
-    "popularity": 3745.657,
-    "poster_path": "/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",
-    "release_date": "2021-03-24",
-    "title": "Godzilla vs. Kong",
-    "video": false,
-    "vote_average": 7.3,
-    "vote_count": 49
+    "CRN": 38781,
+    "Course #": "CSCI 120",
+    "Sc": 2,
+    "Title": "INTRODUCTION TO COMPUTING",
+    "Attribute": "SP",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 18,
+    "Instructor": "Tricia Magee",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
   },
   {
-    "adult": false,
-    "backdrop_path": "/nz8xWrTKZzA5A7FgxaM4kfAoO1W.jpg",
-    "genre_ids": [
-      878,
-      28
-    ],
-    "id": 651571,
-    "original_language": "en",
-    "original_title": "Breach",
-    "overview": "A hardened mechanic must stay awake and maintain an interstellar ark fleeing the dying planet Earth with a few thousand lucky souls on board... the last of humanity. Unfortunately, humans are not the only passengers. A shapeshifting alien creature has taken residence, its only goal is to kill as many people as possible. The crew must think quickly to stop this menace before it destroys mankind.",
-    "popularity": 894.375,
-    "poster_path": "/13B6onhL6FzSN2KaNeQeMML05pS.jpg",
-    "release_date": "2020-12-17",
-    "title": "Breach",
-    "video": false,
-    "vote_average": 4.5,
-    "vote_count": 323
+    "CRN": 30703,
+    "Course #": "CSCI 121",
+    "Sc": 1,
+    "Title": "DATA STRUCTURES",
+    "Attribute": "SP",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 18,
+    "Instructor": "Li Han",
+    "Modality": "Hybrid",
+    "Days": "MF",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "BP326",
+    "Comments": {
+      "Prereq.": "P= CSCI 120; MUST REG FOR LAB"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38579,
+    "Course #": "CSCI 121",
+    "Sc": 2,
+    "Title": "DATA STRUCTURES",
+    "Attribute": "SP",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 24,
+    "Instructor": "Li Han",
+    "Modality": "Hybrid",
+    "Days": "MF",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "BP316",
+    "Comments": {
+      "Prereq.": "P=CSCI 120; MUST REG FOR LAB"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 31946,
+    "Course #": "CSCI 121",
+    "Sc": 901,
+    "Title": "LAB: DATA STRUCTURES",
+    "Attribute": "SP",
+    "Units": "0",
+    "CAP": 58,
+    "Enr": 42,
+    "Instructor": "Li Han",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37136,
+    "Course #": "CSCI 140",
+    "Sc": 1,
+    "Title": "ASSEMBLY LANG & COMPUTER ORG",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 24,
+    "Instructor": "John Magee",
+    "Modality": "In-personIn-person",
+    "Days": "MFW",
+    "Times": "10:25 AM - 11:40 AM10:25 AM - 11:40 AM",
+    "Room": "JC001JC001",
+    "Comments": {
+      "Prereq.": "P=CSCI 121 OR 124; FLEXIBLE MODALITY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 35741,
+    "Course #": "CSCI 170",
+    "Sc": 1,
+    "Title": "ANALYSIS OF PROG LANGUAGE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 26,
+    "Instructor": "Kenneth Basye",
+    "Modality": "In-personIn-person",
+    "Days": "TRM",
+    "Times": "04:15 PM - 05:30 PM04:15 PM - 05:30 PM",
+    "Room": "BICKMULTIBICKMULTI",
+    "Comments": {
+      "Prereq.": "P=CSCI 121 OR 124 & MATH 114"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38701,
+    "Course #": "CSCI 201",
+    "Sc": 1,
+    "Title": "PROSEMINAR: WEB DEVELOPMENT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 24,
+    "Instructor": "Shuo Niu",
+    "Modality": "HybridHybrid",
+    "Days": "FTR",
+    "Times": "01:25 PM - 02:40 PM10:25 AM - 11:40 AM",
+    "Room": "BP316BP326",
+    "Comments": {
+      "Prereq.": "P=CSCI 160"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38733,
+    "Course #": "CSCI 250",
+    "Sc": 1,
+    "Title": "SOFTWARE ENGINEERING",
+    "Attribute": "POP",
+    "Units": "1",
+    "CAP": 35,
+    "Enr": 30,
+    "Instructor": "John Magee",
+    "Modality": "Hybrid",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "BICKMULTI",
+    "Comments": {
+      "Prereq.": "P=CSCI 160 OR 170; FLEXIBLE MODALITY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38582,
+    "Course #": "CSCI 270",
+    "Sc": 1,
+    "Title": "THEORY OF COMPUTATION",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 24,
+    "Enr": 9,
+    "Instructor": "Frederic Green",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "BP217",
+    "Comments": {
+      "Prereq.": "P=CSCI 180"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 30228,
+    "Course #": "CSCI 297",
+    "Sc": 1,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Frederic Green",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 32740,
+    "Course #": "CSCI 297",
+    "Sc": 3,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "John Magee",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 35227,
+    "Course #": "CSCI 297",
+    "Sc": 4,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Li Han",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 38248,
+    "Course #": "CSCI 297",
+    "Sc": 5,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Kenneth Basye",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 33724,
+    "Course #": "CSCI 298",
+    "Sc": 0,
+    "Title": "INTERNSHIP",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "CONTACT CAREER SERVICES TO ARRANGE"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 34006,
+    "Course #": "CSCI 299",
+    "Sc": 0,
+    "Title": "DIRECTED STUDY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "CONTACT A FACULTY MEMBER TO ARRANGE"
+    },
+    "Perm Only": "Y"
   }
 ]
