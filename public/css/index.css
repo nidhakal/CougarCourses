@@ -100,7 +100,25 @@
     padding: 2px;
 }
 
+
 #course_list{
     /*border-top: transparent;*/
 }
 
+#PLScourse_list .att{
+    text-align: center;
+    padding-right: 150px;
+}
+
+#PLScourse_list #flexCheckDefault{
+    size: 150px;
+}
+
+#submit{
+    alignment: right;
+}
+
+#note{
+    font-size: x-large;
+    font-family: 'Noto Sans Jp',sans-serif ;
+}

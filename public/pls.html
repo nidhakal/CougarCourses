@@ -26,7 +26,7 @@
     <!--    Google jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="js/CSmajor.js" defer></script>
+    <script src="js/pls.js" defer></script>
 </head>
 
 <body class="container">
@@ -50,22 +50,22 @@
 <!--<section>-->
 <!--    <img id="logo" src="img/logo.png" alt="Clark Logo">-->
 <!--</section>-->
-
 <section>
-    <p>Please Select the CS courses that you have already completed:</p>
+    <p id ="note">Please Select the PLS requirements that you have already completed:</p>
 </section>
 <br>
-
 <section id="cars">
     <div class="row"  id="headers">
-        <div class="header col-5"><a class="CourseNo" style="color: black; text-decoration: none" >Course No.</a></div>
-        <div class="header col-5"><a class ="CourseName" style="color: black; text-decoration: none">Course Name</a></div>
+        <div class="header col-5"><a class="CourseNo" style="color: black; text-decoration: none" >Requirement Name</a></div>
+        <div class="header col-5"><a class ="CourseName" style="color: black; text-decoration: none">Attribute</a></div>
     </div>
 
-    <div id="CScourse_list" >
+    <div id="PLScourse_list" >
 
     </div>
-    <button type="button" class="btn btn-success" style="margin-left: 93%">Success</button>
+    <div>
+    <button type="button" class="btn btn-success" id ="submit" style="margin-left: 93%">Success</button>
+    </div>
 </section>
 </body>
 </html>

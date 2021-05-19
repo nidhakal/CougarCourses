@@ -1,0 +1,30 @@
+[
+  {
+  "Name": "Verbal Expression course",
+  "Attribute": "VE"
+  },
+  {
+    "Name": "Formal Analysis course",
+    "Attribute": "FA"
+  },
+  {
+    "Name": "Aesthetic Perspective course",
+    "Attribute": "AP"
+  },
+  {
+    "Name": "Global Comparative Perspective course",
+    "Attribute": "GP"
+  },
+  {
+    "Name": "Language and Culture Perspective course",
+    "Attribute": "HP"
+  },
+  {
+    "Name": "Natural Scientific Perspective course",
+    "Attribute": "SP"
+  },
+  {
+    "Name": "Values Perspective courses",
+    "Attribute": "VP"
+  }
+  ]

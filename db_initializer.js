@@ -7,6 +7,10 @@ jsonList = JSON.parse(rawdata);
 const csmajordata = fs.readFileSync(__dirname + "/dataCSmajor.json");
 jsonList1 = JSON.parse(csmajordata);
 
+const plsdata = fs.readFileSync(__dirname + "/pls.json");
+jsonList2 = JSON.parse(plsdata);
+
+
 
 mongoose.connect('mongodb://localhost:27017/courseDB', {useNewUrlParser: true}, function () {
     console.log("db connected successful!")
@@ -29,12 +33,19 @@ const courseSchema = new mongoose.Schema({
 })
 
 
+const plsSchema = new mongoose.Schema({
+    name: String,
+    attribute: String,
+})
+
+
 const Course = mongoose.model('Course', courseSchema);
 const CScourse = mongoose.model('CScourse', courseSchema);
-
+const PLScourse = mongoose.model('PLScourse', plsSchema);
 
 courseList = []
 CScourseList = []
+PLScourseList = []
 
 jsonList.forEach(function (course) {
     courseList.push({
@@ -72,6 +83,15 @@ jsonList1.forEach(function (course) {
     });
 });
 
+jsonList2.forEach(function (course) {
+    PLScourseList.push({
+        "name": course["Name"],
+        "attribute": course["Attribute"]
+    });
+});
+
+
+
 Course.insertMany(courseList, function (err) {
     if (err) {
         console.log(err);
@@ -89,3 +109,13 @@ CScourse.insertMany(CScourseList, function (err) {
         mongoose.connection.close();
     }
 });
+
+PLScourse.insertMany(PLScourseList, function (err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("All data saved");
+        mongoose.connection.close();
+    }
+});
+

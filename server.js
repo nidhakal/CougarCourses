@@ -44,8 +44,15 @@ const courseSchema = {
     Room: String
 };
 
+const plsSchema = new mongoose.Schema({
+    name: String,
+    attribute: String,
+})
+
+
 const Course = mongoose.model('Course', courseSchema);
 const CScourse = mongoose.model('CScourse', courseSchema);
+const PLScourse = mongoose.model('PLScourse', plsSchema);
 
 const userSchema= new mongoose.Schema(
     {
@@ -135,6 +142,24 @@ app.get("/get_cs_courses", function (req, res) {
     });
 });
 
+app.get("/get_pls_courses", function (req, res) {
+    // console.log(courseSchema)
+    PLScourse.find(function (err, data) {
+        console.log(data)
+        if (err) {
+            res.send({
+                "message": "error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+    });
+});
+
 
 
 app.get('/course', function (req, res) {
@@ -142,6 +167,10 @@ app.get('/course', function (req, res) {
 });
 app.get('/majorcourse', function (req, res) {
     res.sendFile(__dirname + "/public/CSmajor.html");
+});
+
+app.get('/plscourse', function (req, res) {
+    res.sendFile(__dirname + "/public/pls.html");
 });
 
 app.get('/get_movie_by_id', function (req, res) {
