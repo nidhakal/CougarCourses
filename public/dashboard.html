@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cougar Courses</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <!--    Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+
+    <!--    Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=RocknRoll+One&display=swap"
+          rel="stylesheet">
+
+    <!--    fontawesome-->
+    <script src="https://kit.fontawesome.com/e5b5eed843.js" crossorigin="anonymous"></script>
+
+    <!--    Google jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/dashboard.js" defer></script>
+</head>
+
+<!-- Header -->
+<body>
+<section id="header_section">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">Cougar Courses</a>
+            </div>
+            <div class="navbar-nav navbar-right">
+                <a class="nav-link active login" href="/index.html">Home</a>
+                <a class="nav-link active login" href="/courses.html">Courses</a>
+                <a class="nav-link active login" href="/login.html">Login</a>
+                <a class="nav-link active login" href="/register.html">Register</a>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!--Dashboard Body-->
+<section id="dashboard-body" class="container">
+    <div class="dashHeading"> <!--contains the welcome message and the major and minors for logged in user-->
+
+    </div>
+    <div class="row itemTitles">
+        <div class="col-4"><h4>Courses taken for Computer Science:</h4></div>
+        <div class="col-4"><h4>Courses taken for Economics:</h4></div>
+        <div class="col-4"><h4>Courses taken for Entrepreneurship:</h4></div>
+    </div>
+    <div class="row dashItems">
+    <div class="dashItems col-4"> <!--contains the accordion and info-->
+<!--        <h3>Courses taken for Computer Science:</h3>-->
+        <div class="accordion" id="major1Accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class1" aria-expanded="false" aria-controls="collapseOne">
+                        CSCI 120
+                    </button>
+                </h2>
+                <div id = "major1class1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Into to Computer Science<br>
+                        <strong>Professor:</strong> Prof. John Magee<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> SP
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class2" aria-expanded="false" aria-controls="collapseOne">
+                        CSCI 121
+                    </button>
+                </h2>
+                <div id = "major1class2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Into to Data Structures<br>
+                        <strong>Professor:</strong> Prof. Hadian<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> None
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class3" aria-expanded="true" aria-controls="collapseOne">
+                        CSCI 160
+                    </button>
+                </h2>
+                <div id = "major1class3" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Algorithms<br>
+                        <strong>Professor:</strong> Prof. Frederick Green<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> None
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class4" aria-expanded="true" aria-controls="collapseOne">
+                        MATH 120
+                    </button>
+                </h2>
+                <div id = "major1class4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Calculus I<br>
+                        <strong>Professor:</strong> Prof. Natalia Sternberg<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> FA
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class5" aria-expanded="true" aria-controls="collapseOne">
+                        MATH 121
+                    </button>
+                </h2>
+                <div id = "major1class5" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Calculus II<br>
+                        <strong>Professor:</strong> Prof. Natalia Sternberg<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> FA
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#major1class6" aria-expanded="true" aria-controls="collapseOne">
+                        MATH 114
+                    </button>
+                </h2>
+                <div id = "major1class6" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Course Title:</strong> Discrete Mathematics<br>
+                        <strong>Professor:</strong> Prof. Mohebbi<br>
+                        <strong>Units:</strong> 1<br>
+                        <strong>PLS:</strong> FA
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+        <div class="dashItems col-4"> <!--contains the accordion and info-->
+<!--            <h3>Courses taken for Economics:</h3>-->
+            <div class="accordion" id="minor1Accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#minor1class1" aria-expanded="false" aria-controls="collapseOne">
+                            ECON 010
+                        </button>
+                    </h2>
+                    <div id = "minor1class1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Course Title:</strong> Economics and World Economy<br>
+                            <strong>Professor:</strong> Prof. Suprabha Baniya<br>
+                            <strong>Units:</strong> 1<br>
+                            <strong>PLS:</strong> None
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashItems col-4"> <!--contains the accordion and info-->
+<!--            <h3>Courses taken for Entrepreneurship & Innovation:</h3>-->
+            <div class="accordion" id="minor2Accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#minor2class1" aria-expanded="false" aria-controls="collapseOne">
+                            ENT 115
+                        </button>
+                    </h2>
+                    <div id = "minor2class1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Course Title:</strong> Entrepreneurship<br>
+                            <strong>Professor:</strong> Prof. John Dobson<br>
+                            <strong>Units:</strong> 1<br>
+                            <strong>PLS:</strong> None
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#minor2class2" aria-expanded="false" aria-controls="collapseOne">
+                            ENT 260
+                        </button>
+                    </h2>
+                    <div id = "minor2class2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Course Title:</strong> Social Entrepreneurship<br>
+                            <strong>Professor:</strong> Prof. David Jordon<br>
+                            <strong>Units:</strong> 1<br>
+                            <strong>PLS:</strong> None
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#minor2class3" aria-expanded="false" aria-controls="collapseOne">
+                            ENT 160
+                        </button>
+                    </h2>
+                    <div id = "minor2class3" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Course Title:</strong> Student Run Ventures<br>
+                            <strong>Professor:</strong> Prof. Anthony Aiello<br>
+                            <strong>Units:</strong> 0.5<br>
+                            <strong>PLS:</strong> None
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
