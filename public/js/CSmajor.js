@@ -1,4 +1,5 @@
 function showList(course) {
+    courses = course;
     console.log("I am at showList");
     $('#CScourse_list').empty();
 
@@ -23,8 +24,7 @@ function showList(course) {
     $('#CScourse_list .row')
         .append('<div class="col-4 course_numb" ></div>')
         .append('<div class="col-4 title1"></div>')
-        .append('<div class="col-4 check"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">\n' +
-            '<label for="vehicle1">Completed </label><br></div>')
+        .append('<div class="col-4 buttonDiv"></div>')
 
 
 
@@ -41,54 +41,42 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<input type="button" class="btn btn-outline-primary button" value="Show More">`
+            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary" onclick="showCourse(${idx})">Taken</button></div>`
         });
 
-    $('.button').on('click', function () {
-        const carid = $(this).parents('li').attr("value");
-        console.log(carid);
-        location.href = "detail.html?car_id=" + carid;
-    });
+
 
 }
 
 
 $.getJSON("/get_cs_courses").done(function (data) {
-    console.log(data)
+    // console.log(data)
     if (data.message === "success") {
         showList(data["data"]);
     }
 });
 
 
+let courses = []
+// console.log(likes)
+
+function showCourse(idx) {
+    console.log(courses[idx])
+    // const courseID = $(this).val();
+    const course=courses[idx]
+
+    $.post('/course_taken', {course}).done((data) =>{
+        console.log("this is data"+ data)
+        if(data["message"] === "success"){
+            //likes.push(cars[carID])
+            // location.reload()
+            // console.log(likes)
+        }else{
+            location.href = data.data+"?error="+data.message;
+        }
 
 
-$('.Make').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/make").done(function (data) {
-        showList(data["data"]);
-    });
-});
+    })
 
+}
 
-$('.Model').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/model").done(function (data) {
-        showList(data["data"]);
-    });
-});
-
-
-$('.Year').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/year").done(function (data) {
-        showList(data["data"]);
-    });
-});
-
-$('.Price').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/price").done(function (data) {
-        showList(data["data"]);
-    });
-});

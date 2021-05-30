@@ -1,7 +1,7 @@
 function load_user(user) {
-    $('#name').text(user.fullname);
-    $('#brand').text(user.brand);
-    $('#profile_img').attr('src', user.profile);
+    $('#u-name').text(user.fullname);
+    // $('#brand').text(user.brand);
+    // $('#profile_img').attr('src', user.profile);
     // if(user.likes){
     //     $('#car_list')
     //         .append(function (idx){
@@ -9,6 +9,17 @@ function load_user(user) {
     //         })
     //
     // }
+    if(user.courses_taken){
+
+        user.courses_taken.forEach((CScourse)=>{
+            console.log(CScourse.Course_num)
+            const course =CScourse.Course_num+" "+ CScourse.Title+ " "+ CScourse.Instructor;
+
+            $('#taken-course').append(`<li class="list-group-item">${course}</li>`);
+        });
+
+
+    }
 }
 
 $(document).ready(function (){

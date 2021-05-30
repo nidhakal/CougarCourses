@@ -69,7 +69,24 @@ const userSchema= new mongoose.Schema(
         fullname:{
             type: String,
             require: true
-        }
+        },
+        courses_taken: [
+            {
+                CRN: String,
+                Course_num: String,
+                Sc: String,
+                Title: String,
+                Attribute: String,
+                Units: String,
+                CAP:String,
+                Enr: String,
+                Instructor: String,
+                Modality: String,
+                Days: String,
+                Times: String,
+                Room: String
+            }
+        ]
     }
 );
 
@@ -109,7 +126,7 @@ app.get('/get_current_user', function (req,res){
 app.get("/get_all_courses", function (req, res) {
     // console.log(courseSchema)
     Course.find(function (err, data) {
-        console.log(data)
+        // console.log(data)
         if (err) {
             res.send({
                 "message": "error",
@@ -127,7 +144,7 @@ app.get("/get_all_courses", function (req, res) {
 app.get("/get_cs_courses", function (req, res) {
     // console.log(courseSchema)
     CScourse.find(function (err, data) {
-        console.log(data)
+        // console.log(data)
         if (err) {
             res.send({
                 "message": "error",
@@ -145,7 +162,7 @@ app.get("/get_cs_courses", function (req, res) {
 app.get("/get_pls_courses", function (req, res) {
     // console.log(courseSchema)
     PLScourse.find(function (err, data) {
-        console.log(data)
+        // console.log(data)
         if (err) {
             res.send({
                 "message": "error",
@@ -211,7 +228,7 @@ app.post('/register', (req, res) => {
                 //write into cookies, authenticate the requests
                 const authenticate = passport.authenticate("local");
                 authenticate(req,res, function (){
-                    res.redirect("/")
+                    res.redirect("/CSmajor.html")
                 });
             }
         }
@@ -248,7 +265,6 @@ app.post('/login', (req, res) => {
                     })
                 authenticate(req, res);
             }
-
         }
     )
 });
@@ -270,7 +286,45 @@ app.get("/edit", (req, res) => {
     }
 });
 
-
-app.post('/like_movie', (req, res) => {
-    //Users need to login to like a movie
+app.post('/course_taken', (req, res) => {
+    if (req.isAuthenticated()) {
+        const course_id=req.body.CRN;
+        const course = {
+            CRN: req.body.course.CRN,
+            Course_num: req.body.course.Course_num,
+            Sc: req.body.course.Sc,
+            Title: req.body.course.Title,
+            Attribute: req.body.course.Attribute,
+            Units: req.body.course.Units,
+            CAP:req.body.course.CAP,
+            Enr: req.body.course.Enr,
+            Instructor: req.body.course.Instructor,
+            Modality: req.body.course.Modality,
+            Days: req.body.course.Days,
+            Times: req.body.course.Times ,
+            Room: req.body.course.Room
+        }
+         console.log(course);
+        User.updateOne(
+            {_id: req.user._id, 'courses_taken.CRN': {$ne: course.CRN}},
+            {
+                $push: {courses_taken: course}
+            },
+            {},
+            (err, info) => {
+                if (err) {
+                    res.send({
+                        message: "database error"
+                    });
+                } else {
+                    res.send({
+                        message: "success"
+                    })
+                }})
+    } else {
+        res.send({
+            message: "login required",
+            data: ("/login")
+        })
+    }
 });
