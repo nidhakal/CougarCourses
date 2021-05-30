@@ -60,7 +60,7 @@ function onCreate() {
 
 
 
-$(docuument).ready(function(){
+$(document).ready(function(){
     $.getJSON('/get_current_user').done(function() {
         console.log(data)
         if(data['message']==="success"){
