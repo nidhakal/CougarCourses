@@ -2,11 +2,19 @@
     /* CSS HEX */
     --imperial-red: #e63946ff;
     --true-red: #cd0000;
-    --soft-grey: #7c7a7a;
+    --soft-grey: #8d8a8a;
     --powder-blue: #a8dadcff;
     --celadon-blue: #457b9dff;
     --prussian-blue: #1d3557ff;
 }
+
+/********** Login & Register Buttons **********/
+
+.home-btn{
+    width: 100px;
+}
+
+/********** End of Login & Register Buttons **********/
 
 .cel_noto {
     color: var(--celadon-blue);
@@ -44,7 +52,7 @@
     width: 10%;
     height: 10%;
     margin-left: 45%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .about{
@@ -67,6 +75,7 @@
     /*align-content: center;*/
     width: 78px !important;
     vertical-align: middle;
+    text-align: center;
 }
 
 .login-heading{
@@ -225,4 +234,6 @@ header
     font-size: large;
     font-family: 'Noto Sans Jp',sans-serif ;
 }
+
+
 

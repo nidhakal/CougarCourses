@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Imports -->
 <head>
     <meta charset="UTF-8">
-    <title>Cougar Courses</title>
-
-    <link rel="stylesheet" href="css/index.css">
+    <title>CougarCourses</title>
 
     <!--    Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -14,6 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!--    Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,7 +30,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js/index.js" defer></script>
+
 </head>
+<!-- End of Imports -->
 
 <!-- Header -->
 <body class="container">
@@ -35,64 +40,66 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <div class="logoDiv col-1">
-                <a class="nav-logo" href="index.html"><img src="img/cougar-logo.png" alt="CougarCourses Logo" width=50%
+                <a class="nav-logo" href="index.html"><img src="img/cougar-logo.png" alt="CougarCourses Logi" width=50%
                                                            class="logo-to-home"/></a>
             </div>
-            <!--            <div class="navbar-nav">-->
-            <!--                <a class="navbar-brand" href="/">Cougar Courses</a>-->
-            <!--            </div>-->
-            <div class="navbar-nav navbar-right">
-                <a class="nav-link active login" href="/index.html">Home</a>
-                <a class="nav-link active login" href="/courses.html">Courses</a>
-                <a class="nav-link active login" href="/login.html">Login</a>
-                <a class="nav-link active login" href="/register.html">Register</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="project.html" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Explore Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="project.html">Existing Projects</a></li>
-                        <li><a class="dropdown-item" href="/submit_project">Submit a Project</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link login" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link login" href="register.html">Register</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle logout" href="project.html" id="showname" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false" style="color: black">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class=" nav-link active logout" href="profile.html">View Profile</a></li>
-                        <li><a class="nav-link active logout" href="/logout">Log out</a></li>
-                    </ul>
-                </li>
+
+            <div class="collapse navbar-collapse col-8" id="navbarNav">
+                <div class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="project.html" id="navbarDropdownMenuLink"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="project.html">Existing Projects</a></li>
+                            <li><a class="dropdown-item" href="/submit_project.html">Submit a Project</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle logout" href="project.html" id="showname" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false" style="color: black">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class=" nav-link active logout" href="profile.html">View Profile</a></li>
+                            <li><a class="nav-link active logout" href="/logout">Log out</a></li>
+                        </ul>
+                    </li>
+                </div>
             </div>
         </div>
     </nav>
 </section>
+<!-- End of Header -->
 
 
-<!--Logo-->
+<!-- Logo -->
 <section>
     <img id="logo" src="img/logo.png" alt="Clark Logo">
 </section>
+<!-- End of Logo -->
 
-<!--Welcome-->
+<!-- Welcome -->
 <section>
     <H1 class="welcome">Welcome to CougarCourses!</H1>
     <p class="about">
         Welcome to CougarCourses! Our free online platform provides guidance to help you graduate college effectively
         and efficiently. CougarCourses assists you in visualizing your semester schedule with appropriate major and PLS
         requirements enabling you to make informed choices. By creating an intentional degree plan with us, you will
-        stay on course, graduate faster and avoid increasing your student debt.
-    </p>
-    <p class="about">
-        Not understanding your degree requirements and course sequencing, taking unnecessary courses, and lacking
+        stay on course, graduate faster and avoid increasing your student debt. Not understanding your degree
+        requirements and course sequencing, taking unnecessary courses, and lacking
         academic advising adds time and expenses to your degree completion plan. Imagine knowing the steps you should
         take in advance - before registration, and more importantly, before you start veering off track, wasting
         irreplaceable time. That is what we are here to help with!
@@ -103,19 +110,28 @@
         like-minded Clarkies to collaborate with. If you wish to rather work on existing projects, you can also go
         through a list of exciting endeavors posted by your peers and reach out for collaboration! These personal
         projects are a great way to polish your existing skills. As a plus, they look great on your resume and are also
-        highly talked about in the interview process!
-    </p>
-    <p class="about">
-        CougarCourses will keep you stay ahead of the game, personally and professionally.
+        highly talked about in the interview process! CougarCourses will keep you stay ahead of the game, personally and
+        professionally.
     </p>
 </section>
+<!-- End of Welcome -->
 <br>
 
 <!-- Buttons -->
 <div class="controls" style="margin-left: 43%">
-    <a class="btn btn-danger custom" href="/register.html" role="button">Register</a>
-    <a class="btn btn-danger custom" href="/login.html" role="button">Login</a>
+    <a class="btn btn-danger home-btn" href="/register.html" role="button">Register</a>
+    <a class="btn btn-danger home-btn" href="/login.html" role="button">Login</a>
 </div>
+<!-- End of Buttons -->
+
+<!-- Footer -->
+<section id="footer">
+    <div class="footer-bottom bg-light">
+        &copy; All rights reserved @ 2021<br>
+        Designed & Created by Dilasha Shrestha, Nipurna Dhakal, Sujhan Ghimire, Naveed Bin Sattar & Brad Moreau
+    </div>
+</section>
+<!-- End of Footer -->
 
 </body>
 </html>
