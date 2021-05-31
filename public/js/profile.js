@@ -1,14 +1,8 @@
 function load_user(user) {
+    console.log(user)
+
+    $('#profile_img').attr('src', user.url);
     $('#u-name').text(user.fullname);
-    // $('#brand').text(user.brand);
-    // $('#profile_img').attr('src', user.profile);
-    // if(user.likes){
-    //     $('#car_list')
-    //         .append(function (idx){
-    //             return `${user[idx].likes}`
-    //         })
-    //
-    // }
     if(user.courses_taken){
 
         user.courses_taken.forEach((CScourse)=>{
@@ -31,6 +25,26 @@ function load_user(user) {
 
 
     }
+    if(user.PLScourses_taken){
+
+        user.PLScourses_taken.forEach((PLScourse)=>{
+            console.log(PLScourse.Name)
+            const course =PLScourse.Name+" "+ PLScourse.Attribute;
+
+            $('#taken-PLS-course').append(`<li class="list-group-item">${course}</li>`);
+        });
+
+
+    }
+    if(user.PLScourses_nottaken){
+        user.PLScourses_nottaken.forEach((PLScourse)=>{
+            // console.log(PLScourse.Course_num)
+            const coursePLS =PLScourse.Name+" "+ PLScourse.Attribute;
+            $('#not-taken-PLS-course').append(`<li class="list-group-item">${coursePLS}</li>`);
+        });
+
+
+    }
 
 }
 
@@ -40,4 +54,6 @@ $(document).ready(function (){
             load_user(data['data'])
         }})
 })
+
+
 

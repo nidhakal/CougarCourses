@@ -34,8 +34,8 @@ const courseSchema = new mongoose.Schema({
 
 
 const plsSchema = new mongoose.Schema({
-    name: String,
-    attribute: String,
+    Name: String,
+    Attribute: String,
 })
 
 
@@ -85,8 +85,8 @@ jsonList1.forEach(function (course) {
 
 jsonList2.forEach(function (course) {
     PLScourseList.push({
-        "name": course["Name"],
-        "attribute": course["Attribute"]
+        "Name": course["Name"],
+        "Attribute": course["Attribute"]
     });
 });
 

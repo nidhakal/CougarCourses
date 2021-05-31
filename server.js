@@ -45,8 +45,8 @@ const courseSchema = {
 };
 
 const plsSchema = new mongoose.Schema({
-    name: String,
-    attribute: String,
+    Name: String,
+    Attribute: String,
 })
 
 
@@ -69,6 +69,9 @@ const userSchema= new mongoose.Schema(
         fullname:{
             type: String,
             require: true
+        },
+        url:{
+            type: String
         },
         courses_taken: [
             {
@@ -102,6 +105,18 @@ const userSchema= new mongoose.Schema(
                 Days: String,
                 Times: String,
                 Room: String
+            }
+        ],
+        PLScourses_taken: [
+            {
+                Name: String,
+                Attribute: String
+            }
+        ],
+        PLScourses_nottaken: [
+            {
+                Name: String,
+                Attribute: String
             }
         ]
     }
@@ -232,7 +247,7 @@ app.get('/register', (req, res) => {
 });
 
 app.post('/register', (req, res) => {
-    const newUser={username: req.body.username, fullname: req.body.fullname
+    const newUser={username: req.body.username, fullname: req.body.fullname, url:req.body.url
     };
     User.register(
         newUser,
@@ -245,7 +260,7 @@ app.post('/register', (req, res) => {
                 //write into cookies, authenticate the requests
                 const authenticate = passport.authenticate("local");
                 authenticate(req,res, function (){
-                    res.redirect("/")
+                    res.redirect("/CSmajor.html")
                 });
             }
         }
@@ -372,6 +387,72 @@ app.post('/not_taken', (req, res) => {
             {_id: req.user._id, 'courses_nottaken.CRN': {$ne: course.CRN}},
             {
                 $push: {courses_nottaken: course}
+            },
+            {},
+            (err, info) => {
+                if (err) {
+                    res.send({
+                        message: "database error"
+                    });
+                } else {
+                    res.send({
+                        message: "success"
+                    })
+                }})
+    } else {
+        res.send({
+            message: "login required",
+            data: ("/login")
+        })
+    }
+});
+
+
+app.post('/PLS_course_taken', (req, res) => {
+    if (req.isAuthenticated()) {
+        // const course_id=req.body.CRN;
+        const course = {
+            Name: req.body.course.Name,
+            Attribute: req.body.course.Attribute
+        }
+        console.log(course);
+        User.updateOne(
+            {_id: req.user._id, 'PLScourses_taken.Name': {$ne: course.Name}},
+            {
+                $push: {PLScourses_taken: course}
+            },
+            {},
+            (err, info) => {
+                if (err) {
+                    res.send({
+                        message: "database error"
+                    });
+                } else {
+                    res.send({
+                        message: "success"
+                    })
+                }})
+    } else {
+        res.send({
+            message: "login required",
+            data: ("/login")
+        })
+    }
+});
+
+
+app.post('/PLS_not_taken', (req, res) => {
+    if (req.isAuthenticated()) {
+        // const course_id=req.body.CRN;
+        const course = {
+            Name: req.body.course.Name,
+            Attribute: req.body.course.Attribute
+        }
+        console.log(course);
+        User.updateOne(
+            {_id: req.user._id, 'PLScourses_nottaken.Name': {$ne: course.Name}},
+            {
+                $push: {PLScourses_nottaken: course}
             },
             {},
             (err, info) => {
