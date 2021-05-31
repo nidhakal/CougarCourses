@@ -113,64 +113,7 @@
     },
     "Perm Only": "N"
   },
-  {
-    "CRN": 38582,
-    "Course #": "CSCI 270",
-    "Sc": 1,
-    "Title": "THEORY OF COMPUTATION",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 9,
-    "Instructor": "Frederic Green",
-    "Modality": "Hybrid",
-    "Days": "TF",
-    "Times": "12:00 PM - 01:15 PM",
-    "Room": "BP217",
-    "Comments": {
-      "Prereq.": "P=CSCI 180"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 35227,
-    "Course #": "CSCI 297",
-    "Sc": 4,
-    "Title": "HONORS",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 10,
-    "Enr": 0,
-    "Instructor": "Li Han",
-    "Modality": "Online",
-    "Days": "-",
-    "Times": "-",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": ""
-    },
-    "Perm Only": "Y"
-  },
 
-  {
-    "CRN": 34006,
-    "Course #": "CSCI 299",
-    "Sc": 0,
-    "Title": "DIRECTED STUDY",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 0,
-    "Enr": 0,
-    "Instructor": "",
-    "Modality": "Online",
-    "Days": "-",
-    "Times": "-",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": "CONTACT A FACULTY MEMBER TO ARRANGE"
-    },
-    "Perm Only": "Y"
-  },
 
   {
     "CRN": 27391,
@@ -230,25 +173,6 @@
     "Perm Only": "N"
   },
   {
-    "CRN": 27988,
-    "Course #": "CSCI 245",
-    "Sc": 1,
-    "Title": "MOBILE SOFTWARE DEVELOPMENT",
-    "Attribute": "POP",
-    "Units": 1,
-    "CAP": 22,
-    "Enr": 17,
-    "Instructor": "Shuo Niu",
-    "Modality": "In-personOnline",
-    "Days": "MFW",
-    "Times": "10:25 AM - 11:40 AM",
-    "Room": "JF218ONLINE",
-    "Comments": {
-      "Prereq.": "P=CSCI 140 OR 160 OR 170"
-    },
-    "Perm Only": "N"
-  },
-  {
     "CRN": 20161,
     "Course #": "MATH 120",
     "Sc": 1,
@@ -286,7 +210,6 @@
     },
     "Perm Only": "N"
   },
-
   {
     "CRN": 20172,
     "Course #": "MATH 114",
@@ -306,8 +229,4 @@
     },
     "Perm Only": "N"
   }
-
-
-
-
 ]
