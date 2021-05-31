@@ -20,6 +20,18 @@ function load_user(user) {
 
 
     }
+    if(user.courses_nottaken){
+
+        user.courses_nottaken.forEach((CScourse)=>{
+            console.log(CScourse.Course_num)
+            const course =CScourse.Course_num+" "+ CScourse.Title+ " ";
+
+            $('#not-taken-course').append(`<li class="list-group-item">${course}</li>`);
+        });
+
+
+    }
+
 }
 
 $(document).ready(function (){

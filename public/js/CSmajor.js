@@ -45,7 +45,6 @@ function showList(course) {
         });
 
 
-
 }
 
 
@@ -58,13 +57,14 @@ $.getJSON("/get_cs_courses").done(function (data) {
 
 
 let courses = []
+let course_id = []
 // console.log(likes)
 
 function showCourse(idx) {
     console.log(courses[idx])
     // const courseID = $(this).val();
     const course=courses[idx]
-
+    course_id.push(idx)
     $.post('/course_taken', {course}).done((data) =>{
         console.log("this is data"+ data)
         if(data["message"] === "success"){
@@ -74,9 +74,27 @@ function showCourse(idx) {
         }else{
             location.href = data.data+"?error="+data.message;
         }
-
-
     })
-
 }
+
+function notTaken(){
+    for (let i = 0; i < courses.length; i++) {
+        if(!course_id.includes(i)){
+            const course=courses[i]
+            $.post('/not_taken', {course}).done((data) =>{
+                console.log("this is data"+ data)
+                if(data["message"] === "success"){
+                    //likes.push(cars[carID])
+                    // location.reload()
+                    // console.log(likes)
+                }else{
+                    location.href = data.data+"?error="+data.message;
+                }
+            })
+        }
+    }
+}
+
+
+
 
