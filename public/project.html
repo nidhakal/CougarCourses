@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Imports -->
 <head>
     <meta charset="UTF-8">
-    <title>CougarCourses</title>
-
-    <!--    Bootstrap-->
+    <title>Clark Center for TIE</title>
+    <!--    Favicon-->
+    <link rel="shortcut icon" type="image/png" href="/src/img/logo.png">
+    <!--    Stylesheet  & Bootstrap     -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
@@ -13,25 +13,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
             crossorigin="anonymous"></script>
-
+    <!--    CSS-->
+    <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="css/header-footer.css">
-    <link rel="stylesheet" href="css/index.css">
-
-    <!--    Google font-->
+    <!--    Google Font     -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=RocknRoll+One&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Raleway:wght@300;500;700&family=Space+Grotesk:wght@400;700&display=swap"
           rel="stylesheet">
-
-    <!--    fontawesome-->
+    <!--    Font Awesome    -->
     <script src="https://kit.fontawesome.com/e5b5eed843.js" crossorigin="anonymous"></script>
-
-    <!--    Google jQuery-->
+    <!--    Google jQuery & JS  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="js/login.js" defer></script>
-
+    <script src="js/project.js" defer></script>
 </head>
-<!-- End of Imports -->
+
+<body>
 
 <!-- Header -->
 <body class="container">
@@ -83,36 +80,39 @@
 </section>
 <!-- End of Header -->
 
-<!--Logo-->
+<!-- List of Projects -->
 <section>
-    <img id="logo" src="img/logo.png" alt="Clark Logo">
-</section>
 
-<div class="container">
-    <h1 class="login-heading">Login to CougarCourses</h1>
-
-    <div class="row">
-        <div class="login-form col-lg-7">
-            <div class="card login-card">
-                <div class="card-body">
-                    <!-- Makes POST request to /login route -->
-                    <form action="/login" method="POST">
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" name="username" id="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" name="password" id="password">
-                        </div>
-                        <div style="color: red"><p id="error_msg"></p></div>
-                        <button type="submit" class="btn btn-danger custom mt-3">Login</button>
-                    </form>
-                </div>
-            </div>
+    <!-- Search Bar -->
+    <div class="col-3">
+        <div class="input-group mb-3 search">
+            <input id="search_box" type="search" class="form-control" placeholder="Search Projects..."
+                   aria-label="Search"
+                   aria-describedby="basic-addon2" onsearch="searchProject()">
+            <span class="input-group-text" id="basic-addon2" onclick="searchProject()"><i
+                    class="fas fa-search"></i>
+        </span>
         </div>
     </div>
-</div>
+    <!-- End of Search Bar -->
+
+    <div class="row">
+
+        <!-- List -->
+        <div id="project-main" class="scrollable card col-3">
+
+        </div>
+        <!-- End of List -->
+
+        <!-- Project Detail -->
+        <div id="project-detail" class="card col-9">
+
+        </div>
+        <!-- End of Project Detail -->
+
+    </div>
+</section>
+<!-- End of Projects -->
 
 <!-- Footer -->
 <section id="footer">
@@ -122,5 +122,6 @@
     </div>
 </section>
 <!-- End of Footer -->
+
 </body>
 </html>

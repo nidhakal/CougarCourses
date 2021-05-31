@@ -1,0 +1,51 @@
+:root {
+    /* CSS HEX- */
+    --imperial-red: #e63946ff;
+    --true-red: #cd0000;
+    --soft-grey: #a7a1a1;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff;
+    --light-gray: #d3d3d3ff;
+}
+/********** Login & Register Buttons **********/
+#header_section{
+    background-color: var(--light-gray);
+}
+
+#footer{
+    margin-top: 2%;
+}
+
+.nav-logo{
+    margin-left: 3%;
+}
+
+.menu-options{
+    padding-left: 3%;
+    padding-right: 0;
+    margin-right: 0;
+}
+/********** End of Login & Register Buttons **********/
+#navbarNav{
+    float: right;
+    padding-left: 50%;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+#footer-content h2{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5%;
+}
+.footer-bottom{
+    background-color: var(--light-gray);
+    color: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 100px;
+    padding-top: 25px;
+}

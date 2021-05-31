@@ -28,7 +28,7 @@
     <!--    Google jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="js/login.js" defer></script>
+    <script src="js/submit_project.js" defer></script>
 
 </head>
 <!-- End of Imports -->
@@ -83,36 +83,54 @@
 </section>
 <!-- End of Header -->
 
-<!--Logo-->
-<section>
-    <img id="logo" src="img/logo.png" alt="Clark Logo">
-</section>
-
-<div class="container">
-    <h1 class="login-heading">Login to CougarCourses</h1>
-
-    <div class="row">
-        <div class="login-form col-lg-7">
-            <div class="card login-card">
-                <div class="card-body">
-                    <!-- Makes POST request to /login route -->
-                    <form action="/login" method="POST">
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" name="username" id="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" name="password" id="password">
-                        </div>
-                        <div style="color: red"><p id="error_msg"></p></div>
-                        <button type="submit" class="btn btn-danger custom mt-3">Login</button>
-                    </form>
-                </div>
+<!-- Submit Project Form -->
+<section class="mainSection">
+    <form action= "/new-project" method="post">
+        <!-- First row-->
+        <div class="row" style="margin-top: 12px">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="project_name" class="form-label">Project Name</label>
+                <input type="text" name="project_name" id="project_name" class="form-control" placeholder="Code Game">
             </div>
         </div>
-    </div>
-</div>
+        <!-- 2nd row-->
+        <div class="row" style="margin-top: 12px">
+            <!-- Type -->
+            <div class="form-group">
+                <label for="area" class="form-label">Project Type</label>
+                <input type="text" name="area" id="area" class="form-control" placeholder="App Development">
+            </div>
+        </div>
+        <!-- 3th row-->
+        <div class="row" style="margin-top: 12px">
+            <!-- -->
+            <div class="form-group col-lg-3 col-md-3">
+                <label for="people" class="form-label">No. of people required</label>
+                <input type="text" name="people" id="people" class="form-control" placeholder="4">
+            </div>
+            <div class="form-group col-lg-3 col-md-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" name="location" id="location" class="form-control" placeholder="On Campus/Online">
+            </div>
+        </div>
+        <!-- 7th row-->
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" name="description" id="description" rows="3" placeholder="This project is about....."></textarea>
+        </div>
+        <!-- Alert -->
+        <label id="alert"></label>
+
+        </div>
+
+        <!-- Save Button -->
+        <div style="margin-top: 2rem;" class="d-flex justify-content-left">
+            <button type="submit" class="btn btn-primary" style="width: 20%">Save</button>
+        </div>
+    </form>
+</section>
+<!-- End of Submit Project Form -->
 
 <!-- Footer -->
 <section id="footer">
