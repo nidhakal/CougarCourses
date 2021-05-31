@@ -35,7 +35,7 @@ const courseSchema = {
     Title: String,
     Attribute: String,
     Units: String,
-    CAP:String,
+    CAP: String,
     Enr: String,
     Instructor: String,
     Modality: String,
@@ -49,24 +49,37 @@ const plsSchema = new mongoose.Schema({
     attribute: String,
 })
 
+const projectSchema = new mongoose.Schema({
+        project_name: String,
+        area: String,
+        people: String,
+        location: String,
+        description: String,
+        posted_by: String,
+        posted_email: String
+    }
+)
+const Project = mongoose.model('project', projectSchema);
+projectlist = []
+
 
 const Course = mongoose.model('Course', courseSchema);
 const CScourse = mongoose.model('CScourse', courseSchema);
 const PLScourse = mongoose.model('PLScourse', plsSchema);
 
-const userSchema= new mongoose.Schema(
+const userSchema = new mongoose.Schema(
     {
-        username:{
+        username: {
             type: String,
             unique: true,
             require: true,
             minlength: 3
         },
-        password:{
+        password: {
             type: String,
             require: true
         },
-        fullname:{
+        fullname: {
             type: String,
             require: true
         },
@@ -78,7 +91,7 @@ const userSchema= new mongoose.Schema(
                 Title: String,
                 Attribute: String,
                 Units: String,
-                CAP:String,
+                CAP: String,
                 Enr: String,
                 Instructor: String,
                 Modality: String,
@@ -95,7 +108,7 @@ const userSchema= new mongoose.Schema(
                 Title: String,
                 Attribute: String,
                 Units: String,
-                CAP:String,
+                CAP: String,
                 Enr: String,
                 Instructor: String,
                 Modality: String,
@@ -125,17 +138,17 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + "/public/.html");
 });
 
-app.get('/get_current_user', function (req,res){
-    if(req.isAuthenticated()){
+app.get('/get_current_user', function (req, res) {
+    if (req.isAuthenticated()) {
         console.log(req.user);
         res.send({
-            message:"success",
-            data:req.user
+            message: "success",
+            data: req.user
         });
-    } else{
+    } else {
         res.send({
             message: "no login",
-            data:{}
+            data: {}
         })
     }
 });
@@ -195,7 +208,6 @@ app.get("/get_pls_courses", function (req, res) {
 });
 
 
-
 app.get('/course', function (req, res) {
     res.sendFile(__dirname + "/public/courses.html");
 });
@@ -232,19 +244,20 @@ app.get('/register', (req, res) => {
 });
 
 app.post('/register', (req, res) => {
-    const newUser={username: req.body.username, fullname: req.body.fullname
+    const newUser = {
+        username: req.body.username, fullname: req.body.fullname
     };
     User.register(
         newUser,
         req.body.password,
-        function(err, user){
-            if(err){
+        function (err, user) {
+            if (err) {
                 console.log(err);
-                res.redirect("/register?error="+err);
-            }else{
+                res.redirect("/register?error=" + err);
+            } else {
                 //write into cookies, authenticate the requests
                 const authenticate = passport.authenticate("local");
-                authenticate(req,res, function (){
+                authenticate(req, res, function () {
                     res.redirect("/")
                 });
             }
@@ -263,22 +276,22 @@ app.get('/login', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    const user=new User({
-        username:req.body.username,
-        password:req.body.password
+    const user = new User({
+        username: req.body.username,
+        password: req.body.password
     });
     req.login(
         user,
-        function(err){
-            if(err){
+        function (err) {
+            if (err) {
                 console.log(err);
                 res.redirect('login?error=Invalid username or password');
-            }else{
+            } else {
                 const authenticate = passport.authenticate(
                     "local",
                     {
-                        successRedirect:"/",
-                        failureRedirect:"/login?error=Username and password don't match"
+                        successRedirect: "/",
+                        failureRedirect: "/login?error=Username and password don't match"
                     })
                 authenticate(req, res);
             }
@@ -297,9 +310,9 @@ app.get('/logout', (req, res) => {
 app.get("/edit", (req, res) => {
     //A page can be viewed only after login
     console.log(res.isAuthenticated());
-    if(req.isAuthenticated()){
+    if (req.isAuthenticated()) {
         res.sendFile(__dirname + "/src/movie_edit.html");
-    }else{
+    } else {
         res.sendFile(__dirname + "/src/movie_edit.html");
     }
 });
@@ -307,7 +320,7 @@ app.get("/edit", (req, res) => {
 
 app.post('/course_taken', (req, res) => {
     if (req.isAuthenticated()) {
-        const course_id=req.body.CRN;
+        const course_id = req.body.CRN;
         const course = {
             CRN: req.body.course.CRN,
             Course_num: req.body.course.Course_num,
@@ -315,12 +328,12 @@ app.post('/course_taken', (req, res) => {
             Title: req.body.course.Title,
             Attribute: req.body.course.Attribute,
             Units: req.body.course.Units,
-            CAP:req.body.course.CAP,
+            CAP: req.body.course.CAP,
             Enr: req.body.course.Enr,
             Instructor: req.body.course.Instructor,
             Modality: req.body.course.Modality,
             Days: req.body.course.Days,
-            Times: req.body.course.Times ,
+            Times: req.body.course.Times,
             Room: req.body.course.Room
         }
         console.log(course);
@@ -339,7 +352,8 @@ app.post('/course_taken', (req, res) => {
                     res.send({
                         message: "success"
                     })
-                }})
+                }
+            })
     } else {
         res.send({
             message: "login required",
@@ -351,7 +365,7 @@ app.post('/course_taken', (req, res) => {
 
 app.post('/not_taken', (req, res) => {
     if (req.isAuthenticated()) {
-        const course_id=req.body.CRN;
+        const course_id = req.body.CRN;
         const course = {
             CRN: req.body.course.CRN,
             Course_num: req.body.course.Course_num,
@@ -359,12 +373,12 @@ app.post('/not_taken', (req, res) => {
             Title: req.body.course.Title,
             Attribute: req.body.course.Attribute,
             Units: req.body.course.Units,
-            CAP:req.body.course.CAP,
+            CAP: req.body.course.CAP,
             Enr: req.body.course.Enr,
             Instructor: req.body.course.Instructor,
             Modality: req.body.course.Modality,
             Days: req.body.course.Days,
-            Times: req.body.course.Times ,
+            Times: req.body.course.Times,
             Room: req.body.course.Room
         }
         console.log(course);
@@ -383,11 +397,80 @@ app.post('/not_taken', (req, res) => {
                     res.send({
                         message: "success"
                     })
-                }})
+                }
+            })
     } else {
         res.send({
             message: "login required",
             data: ("/login")
         })
+    }
+});
+
+
+//Submit New Project
+
+app.get('/submit_project', (req, res) => {
+    if (req.isAuthenticated()) {
+        res.redirect("/project-submit.html");
+    } else {
+        res.redirect("/login?error=You need to login first")
+    }
+});
+
+app.post('/new-project', (req, res) => {
+    const project = {
+        project_name: req.body.project_name,
+        area: req.body.area,
+        people: req.body.people,
+        location: req.body.location,
+        description: req.body.description,
+        posted_by: loginName,
+        posted_email: loginEmail
+    }
+    console.log("save: " + req.body._id)
+    const np = new Project(project);
+    np.save(
+        (err, new_project) => {
+            if (err) {
+                console.log(err["message"]);
+                res.redirect("/project-submit.html?error_message=" + err["message"] + "&input=" + JSON.stringify(project))
+            } else {
+                console.log(new_project._id);
+                res.redirect("/project.html");
+            }
+        })
+
+});
+
+app.get("/get_projects_by_filter", (req, res) => {
+    let sk = req.query.search_key;
+    console.log(sk);
+    Project.find({
+        $and: [
+            {project_name: {$regex: sk}}
+        ]
+    }, (err, data) => {
+        if (err) {
+            res.send(
+                {
+                    "message": "db_error",
+                    "data": []
+                })
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+        console.log(data);
+    });
+});
+
+app.get('/submit_project', (req, res) => {
+    if (req.isAuthenticated()) {
+        res.redirect("/project-submit.html");
+    } else {
+        res.redirect("/login?error=You need to login first")
     }
 });
