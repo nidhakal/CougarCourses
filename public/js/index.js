@@ -60,14 +60,14 @@ function onCreate() {
 
 
 
-$(document).ready(function(){
-    $.getJSON('/get_current_user').done(function() {
+$(document).ready(function (){
+    $.getJSON('/get_current_user').done(function (data) {
         console.log(data)
-        if(data['message']==="success"){
+        if(data['message'] === "success"){
             $('.login').remove();
-            $('#showname').text(data.data.fullname)
+            $('#showname').text(data.data.fullname);
         }else{
-            $('.logout').remove();
+            $('.logout').remove()
         }
-    });
-});
+    })
+})
