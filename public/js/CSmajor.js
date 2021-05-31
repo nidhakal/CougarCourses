@@ -22,7 +22,7 @@ function showList(course) {
     });
 
     $('#CScourse_list .row')
-        .append('<div class="col-4 course_numb" ></div>')
+        .append('<div class="col-2 course_numb" ></div>')
         .append('<div class="col-4 title1"></div>')
         .append('<div class="col-4 buttonDiv"></div>')
 
