@@ -41,7 +41,8 @@ const courseSchema = {
     Modality: String,
     Days: String,
     Times: String,
-    Room: String
+    Room: String,
+    Offering: String
 };
 
 const plsSchema = new mongoose.Schema({
@@ -87,7 +88,8 @@ const userSchema= new mongoose.Schema(
                 Modality: String,
                 Days: String,
                 Times: String,
-                Room: String
+                Room: String,
+
             }
         ],
         courses_nottaken: [
@@ -104,7 +106,8 @@ const userSchema= new mongoose.Schema(
                 Modality: String,
                 Days: String,
                 Times: String,
-                Room: String
+                Room: String,
+                Offering: String
             }
         ],
         PLScourses_taken: [
@@ -380,7 +383,8 @@ app.post('/not_taken', (req, res) => {
             Modality: req.body.course.Modality,
             Days: req.body.course.Days,
             Times: req.body.course.Times ,
-            Room: req.body.course.Room
+            Room: req.body.course.Room,
+            Offering: req.body.course.Offering
         }
         console.log(course);
         User.updateOne(

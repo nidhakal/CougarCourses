@@ -1,232 +1,263 @@
 [
-  {
-    "CRN": 38578,
-    "Course #": "CSCI 120",
-    "Sc": 1,
-    "Title": "INTRODUCTION TO COMPUTING",
-    "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 22,
-    "Instructor": "Tricia Magee",
-    "Modality": "Online",
-    "Days": "TR",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": ""
+    {
+      "CRN": 38578,
+      "Course #": "CSCI 120",
+      "Sc": 1,
+      "Title": "INTRODUCTION TO COMPUTING",
+      "Attribute": "SP",
+      "Units": "1",
+      "CAP": 24,
+      "Enr": 22,
+      "Instructor": "Tricia Magee",
+      "Modality": "Online",
+      "Days": "TR",
+      "Times": "04:15 PM - 05:30 PM",
+      "Room": "ONLINE",
+      "Comments": {
+        "Prereq.": ""
+      },
+      "Perm Only": "Y",
+      "Offering": "Fall and Spring"
     },
-    "Perm Only": "Y"
-  },
-  {
-    "CRN": 30703,
-    "Course #": "CSCI 121",
-    "Sc": 1,
-    "Title": "DATA STRUCTURES",
-    "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 18,
-    "Instructor": "Li Han",
-    "Modality": "Hybrid",
-    "Days": "MF",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "BP326",
-    "Comments": {
-      "Prereq.": "P= CSCI 120; MUST REG FOR LAB"
+    {
+      "CRN": 30703,
+      "Course #": "CSCI 121",
+      "Sc": 1,
+      "Title": "DATA STRUCTURES",
+      "Attribute": "SP",
+      "Units": "1",
+      "CAP": 24,
+      "Enr": 18,
+      "Instructor": "Li Han",
+      "Modality": "Hybrid",
+      "Days": "MF",
+      "Times": "09:00 AM - 10:15 AM",
+      "Room": "BP326",
+      "Comments": {
+        "Prereq.": "P= CSCI 120; MUST REG FOR LAB"
+      },
+      "Perm Only": "N",
+      "Offering": "Spring"
     },
-    "Perm Only": "N"
-  },
+    {
+      "CRN": 37136,
+      "Course #": "CSCI 140",
+      "Sc": 1,
+      "Title": "ASSEMBLY LANG & COMPUTER ORG",
+      "Attribute": "",
+      "Units": "1",
+      "CAP": 24,
+      "Enr": 24,
+      "Instructor": "John Magee",
+      "Modality": "In-personIn-person",
+      "Days": "MFW",
+      "Times": "10:25 AM - 11:40 AM",
+      "Room": "JC001JC001",
+      "Comments": {
+        "Prereq.": "P=CSCI 121 OR 124; FLEXIBLE MODALITY"
+      },
+      "Perm Only": "N",
+      "Offering": "Spring"
+    },
+    {
+      "CRN": 35741,
+      "Course #": "CSCI 170",
+      "Sc": 1,
+      "Title": "ANALYSIS OF PROG LANGUAGE",
+      "Attribute": "",
+      "Units": "1",
+      "CAP": 24,
+      "Enr": 26,
+      "Instructor": "Kenneth Basye",
+      "Modality": "In-personIn-person",
+      "Days": "TRM",
+      "Times": "04:15 PM - 05:30 PM",
+      "Room": "BICKMULTIBICKMULTI",
+      "Comments": {
+        "Prereq.": "P=CSCI 121 OR 124 & MATH 114"
+      },
+      "Perm Only": "N",
+      "Offering": "Spring"
+    },
+    {
+      "CRN": 38701,
+      "Course #": "CSCI 201",
+      "Sc": 1,
+      "Title": "PROSEMINAR: WEB DEVELOPMENT",
+      "Attribute": "",
+      "Units": "1",
+      "CAP": 24,
+      "Enr": 24,
+      "Instructor": "Shuo Niu",
+      "Modality": "HybridHybrid",
+      "Days": "FTR",
+      "Times": "01:25 PM - 02:40 PMM",
+      "Room": "BP316BP326",
+      "Comments": {
+        "Prereq.": "P=CSCI 160"
+      },
+      "Perm Only": "N",
+      "Offering": "Spring"
+    },
+    {
+      "CRN": 38733,
+      "Course #": "CSCI 250",
+      "Sc": 1,
+      "Title": "SOFTWARE ENGINEERING",
+      "Attribute": "POP",
+      "Units": "1",
+      "CAP": 35,
+      "Enr": 30,
+      "Instructor": "John Magee",
+      "Modality": "Hybrid",
+      "Days": "MW",
+      "Times": "12:00 PM - 01:15 PM",
+      "Room": "BICKMULTI",
+      "Comments": {
+        "Prereq.": "P=CSCI 160 OR 170; FLEXIBLE MODALITY"
+      },
+      "Perm Only": "N",
+      "Offering": "Spring"
+    },
+    {
+      "CRN": 27391,
+      "Course #": "CSCI 160",
+      "Sc": 2,
+      "Title": "ALGORITHMS",
+      "Attribute": "",
+      "Units": 1,
+      "CAP": 24,
+      "Enr": 25,
+      "Instructor": "Frederic Green",
+      "Modality": "HybridHybridHybrid",
+      "Days": "TRRTR",
+      "Times": "10:25 AM - 11:40 AM",
+      "Room": "BP310BP310BP326",
+      "Comments": {
+        "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall"
+    },
+    {
+      "CRN": 25278,
+      "Course #": "CSCI 180",
+      "Sc": 1,
+      "Title": "AUTOMATA THEORY",
+      "Attribute": "",
+      "Units": 1,
+      "CAP": 30,
+      "Enr": 26,
+      "Instructor": "Kenneth Basye",
+      "Modality": "In-person",
+      "Days": "TR",
+      "Times": "04:15 PM - 05:30 PM",
+      "Room": "JF320",
+      "Comments": {
+        "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall"
+    },
+    {
+      "CRN": 27980,
+      "Course #": "CSCI 210",
+      "Sc": 1,
+      "Title": "ARTIFICIAL INTELLIGENCE",
+      "Attribute": "",
+      "Units": 1,
+      "CAP": 30,
+      "Enr": 27,
+      "Instructor": "Kenneth Basye",
+      "Modality": "In-personIn-person",
+      "Days": "MRT",
+      "Times": "02:50 PM - 04:05 PM0",
+      "Room": "JF320JF320",
+      "Comments": {
+        "Prereq.": "P=CSCI 160; LAPTOP REQUIRED"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall"
+    },
+    {
+      "CRN": 20161,
+      "Course #": "MATH 120",
+      "Sc": 1,
+      "Title": "CALCULUS I",
+      "Attribute": "FA",
+      "Units": 1,
+      "CAP": 27,
+      "Enr": 27,
+      "Instructor": "Ali Maalaoui",
+      "Modality": "In-person",
+      "Days": "TR",
+      "Times": "09:00 AM - 10:15 AM",
+      "Room": "TCRH",
+      "Comments": {
+        "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall and Spring"
+    },
+    {
+      "CRN": 20162,
+      "Course #": "MATH 121",
+      "Sc": 1,
+      "Title": "CALCULUS II",
+      "Attribute": "FA",
+      "Units": 1,
+      "CAP": 27,
+      "Enr": 27,
+      "Instructor": "Ali Maalaoui",
+      "Modality": "In-person",
+      "Days": "TR",
+      "Times": "09:00 AM - 10:15 AM",
+      "Room": "TCRH",
+      "Comments": {
+        "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall"
+    },
+    {
+      "CRN": 20172,
+      "Course #": "MATH 114",
+      "Sc": 1,
+      "Title": "DISCRETE MATHEMATICS",
+      "Attribute": "FA",
+      "Units": 1,
+      "CAP": 27,
+      "Enr": 27,
+      "Instructor": "Ali Maalaoui",
+      "Modality": "In-person",
+      "Days": "TR",
+      "Times": "09:00 AM - 10:15 AM",
+      "Room": "TCRH",
+      "Comments": {
+        "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
+      },
+      "Perm Only": "N",
+      "Offering": "Fall"
+    },
   {
-    "CRN": 37136,
-    "Course #": "CSCI 140",
+    "CRN": 27988,
+    "Course #": "CSCI 245",
     "Sc": 1,
-    "Title": "ASSEMBLY LANG & COMPUTER ORG",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 24,
-    "Instructor": "John Magee",
-    "Modality": "In-personIn-person",
+    "Title": "MOBILE SOFTWARE DEVELOPMENT",
+    "Attribute": "POP",
+    "Units": 1,
+    "CAP": 22,
+    "Enr": 17,
+    "Instructor": "Shuo Niu",
+    "Modality": "In-personOnline",
     "Days": "MFW",
     "Times": "10:25 AM - 11:40 AM",
-    "Room": "JC001JC001",
+    "Room": "JF218ONLINE",
     "Comments": {
-      "Prereq.": "P=CSCI 121 OR 124; FLEXIBLE MODALITY"
+      "Prereq.": "P=CSCI 140 OR 160 OR 170"
     },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 35741,
-    "Course #": "CSCI 170",
-    "Sc": 1,
-    "Title": "ANALYSIS OF PROG LANGUAGE",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 26,
-    "Instructor": "Kenneth Basye",
-    "Modality": "In-personIn-person",
-    "Days": "TRM",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "BICKMULTIBICKMULTI",
-    "Comments": {
-      "Prereq.": "P=CSCI 121 OR 124 & MATH 114"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 38701,
-    "Course #": "CSCI 201",
-    "Sc": 1,
-    "Title": "PROSEMINAR: WEB DEVELOPMENT",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 24,
-    "Instructor": "Shuo Niu",
-    "Modality": "HybridHybrid",
-    "Days": "FTR",
-    "Times": "01:25 PM - 02:40 PMM",
-    "Room": "BP316BP326",
-    "Comments": {
-      "Prereq.": "P=CSCI 160"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 38733,
-    "Course #": "CSCI 250",
-    "Sc": 1,
-    "Title": "SOFTWARE ENGINEERING",
-    "Attribute": "POP",
-    "Units": "1",
-    "CAP": 35,
-    "Enr": 30,
-    "Instructor": "John Magee",
-    "Modality": "Hybrid",
-    "Days": "MW",
-    "Times": "12:00 PM - 01:15 PM",
-    "Room": "BICKMULTI",
-    "Comments": {
-      "Prereq.": "P=CSCI 160 OR 170; FLEXIBLE MODALITY"
-    },
-    "Perm Only": "N"
-  },
-
-
-  {
-    "CRN": 27391,
-    "Course #": "CSCI 160",
-    "Sc": 2,
-    "Title": "ALGORITHMS",
-    "Attribute": "",
-    "Units": 1,
-    "CAP": 24,
-    "Enr": 25,
-    "Instructor": "Frederic Green",
-    "Modality": "HybridHybridHybrid",
-    "Days": "TRRTR",
-    "Times": "10:25 AM - 11:40 AM",
-    "Room": "BP310BP310BP326",
-    "Comments": {
-      "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 25278,
-    "Course #": "CSCI 180",
-    "Sc": 1,
-    "Title": "AUTOMATA THEORY",
-    "Attribute": "",
-    "Units": 1,
-    "CAP": 30,
-    "Enr": 26,
-    "Instructor": "Kenneth Basye",
-    "Modality": "In-person",
-    "Days": "TR",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "JF320",
-    "Comments": {
-      "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 27980,
-    "Course #": "CSCI 210",
-    "Sc": 1,
-    "Title": "ARTIFICIAL INTELLIGENCE",
-    "Attribute": "",
-    "Units": 1,
-    "CAP": 30,
-    "Enr": 27,
-    "Instructor": "Kenneth Basye",
-    "Modality": "In-personIn-person",
-    "Days": "MRT",
-    "Times": "02:50 PM - 04:05 PM0",
-    "Room": "JF320JF320",
-    "Comments": {
-      "Prereq.": "P=CSCI 160; LAPTOP REQUIRED"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 20161,
-    "Course #": "MATH 120",
-    "Sc": 1,
-    "Title": "CALCULUS I",
-    "Attribute": "FA",
-    "Units": 1,
-    "CAP": 27,
-    "Enr": 27,
-    "Instructor": "Ali Maalaoui",
-    "Modality": "In-person",
-    "Days": "TR",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "TCRH",
-    "Comments": {
-      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 20162,
-    "Course #": "MATH 121",
-    "Sc": 1,
-    "Title": "CALCULUS II",
-    "Attribute": "FA",
-    "Units": 1,
-    "CAP": 27,
-    "Enr": 27,
-    "Instructor": "Ali Maalaoui",
-    "Modality": "In-person",
-    "Days": "TR",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "TCRH",
-    "Comments": {
-      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 20172,
-    "Course #": "MATH 114",
-    "Sc": 1,
-    "Title": "DISCRETE MATHEMATICS",
-    "Attribute": "FA",
-    "Units": 1,
-    "CAP": 27,
-    "Enr": 27,
-    "Instructor": "Ali Maalaoui",
-    "Modality": "In-person",
-    "Days": "TR",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "TCRH",
-    "Comments": {
-      "Prereq.": "P=MATH PLACEMENT OR MATH 119 OR 1110; SOME SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS"
-    },
-    "Perm Only": "N"
+    "Perm Only": "N",
+    "Offering": "Fall"
   }
+
 ]

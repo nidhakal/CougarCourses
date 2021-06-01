@@ -30,6 +30,7 @@ const courseSchema = new mongoose.Schema({
     Days: String,
     Times: String,
     Room: String,
+    Offering:String
 })
 
 
@@ -80,6 +81,7 @@ jsonList1.forEach(function (course) {
         "Days": course["Days"],
         "Times": course["Times"],
         "Room": course["Room"],
+        "Offering": course["Offering"]
     });
 });
 

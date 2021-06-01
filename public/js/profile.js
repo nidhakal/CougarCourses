@@ -4,21 +4,18 @@ function load_user(user) {
     $('#profile_img').attr('src', user.url);
     $('#u-name').text(user.fullname);
     if(user.courses_taken){
-
         user.courses_taken.forEach((CScourse)=>{
             console.log(CScourse.Course_num)
-            const course =CScourse.Course_num+" "+ CScourse.Title+ " "+ CScourse.Instructor;
+            const course =CScourse.Course_num+" "+ CScourse.Title + " ";
 
             $('#taken-course').append(`<li class="list-group-item">${course}</li>`);
         });
-
-
     }
     if(user.courses_nottaken){
 
         user.courses_nottaken.forEach((CScourse)=>{
             console.log(CScourse.Course_num)
-            const course =CScourse.Course_num+" "+ CScourse.Title+ " ";
+            const course =CScourse.Course_num+" "+ CScourse.Title+ ","+ " "+"Offering Semester" +": "+ CScourse.Offering;
 
             $('#not-taken-course').append(`<li class="list-group-item">${course}</li>`);
         });
