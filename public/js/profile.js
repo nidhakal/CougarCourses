@@ -18,8 +18,6 @@ function load_user(user) {
 
             $('#not-taken-course').append(`<li class="list-group-item">${course}</li>`);
         });
-
-
     }
 
 }

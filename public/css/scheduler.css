@@ -1,0 +1,13 @@
+#classSchedule .CSClass{
+    background-color: #4267b2;
+    box-shadow: 5px 5px darkslateblue;
+    border-radius: 10%;
+    z-index: 10;
+
+}
+#classSchedule td{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
