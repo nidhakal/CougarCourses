@@ -3,7 +3,7 @@
     padding-left: 2%;
     padding-right: 2%;
     /*margin-top: 1%;*/
-    margin-left: 74%;
+    margin-left: 78%;
 }
 
 .taken-btn {
@@ -12,19 +12,19 @@
     border: none;
 }
 
-.courseList {
+.CSClasses {
     list-style-type: none;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 16%;
+    margin-right: 16%;
 
 }
 
-#classes {
+#CompSciClass {
     padding-bottom: 1%;
 }
 
 #headers {
-    padding-left: 24%;
+    padding-left: 21%;
     padding-bottom: 1%;
     margin-top: 0;
     padding-top: 0;
@@ -32,7 +32,7 @@
 
 
 .CourseNo {
-    margin-left: 10%;
+    /*margin-left: 2%;*/
 
 }
 
@@ -42,8 +42,6 @@
     padding-bottom: 0;
     text-align: justify;
     font-family: Raleway;
-
-
 }
 
 .course_numb {
@@ -59,4 +57,17 @@
     margin-top: 2%;
     font-family: Raleway;
     font-weight: bold;
+}
+
+.buttonDiv{
+    padding-left: 200px;
+    margin: auto;
+}
+
+#course_list .row{
+    padding-top: 20px;
+}
+
+.CourseName{
+    margin-left: 1%;
 }

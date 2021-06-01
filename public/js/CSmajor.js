@@ -1,10 +1,10 @@
 function showList(course) {
     courses = course;
     console.log("I am at showList");
-    $('#CScourse_list').empty();
+    $('#CScourse_list').empty().append(`<ul class="CSClasses"></ul>`);
 
     for (let i = 0; i < course.length; i++) {
-        $('#CScourse_list').append("<li class='list-group-item'></li>");
+        $('.CSClasses').append("<li class='CompSciClass'></li>");
     }
 
     $('#CScourse_list li')
@@ -22,8 +22,8 @@ function showList(course) {
     });
 
     $('#CScourse_list .row')
-        .append('<div class="col-2 course_numb" ></div>')
-        .append('<div class="col-4 title1"></div>')
+        .append('<div class="col-3 course_numb" ></div>')
+        .append('<div class="col-5 title1"></div>')
         .append('<div class="col-4 buttonDiv"></div>')
 
 
@@ -39,7 +39,7 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary" onclick="showCourse(${idx})">Taken</button></div>`
+            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary taken-btn" onclick="showCourse(${idx})">Completed</button></div>`
         });
 
 
