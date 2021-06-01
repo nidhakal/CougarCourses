@@ -39,3 +39,16 @@
 #search_box{
     margin-left: 1%;
 }
+
+#edit{
+    background-color: var(--true-red);
+    border: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    margin-left: 80%;
+}
+
+.btn-contact{
+    background-color: var(--true-red);
+}

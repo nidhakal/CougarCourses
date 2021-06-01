@@ -53,9 +53,9 @@ function showProject(idx) {
         .append(function () {
             // console.log(project_data[idx].email)
             return `<div><p class="ma title-detail">${project_data[idx].project_name}</p>
-                    <div class="col">
+                    <div class="row">
                     <p class ="col-3 ma posted_on"><strong>Posted on: </strong> 05/31/2021</p>
-                    <button type="button" class="btn btn-warning " style="margin-left: 60%" id="edit">Edit</button>
+                    <button type="button" class="col-2 btn btn-warning" id="edit">Edit</button>
                     </div>
                     <hr>
                     <p class ="ma"><strong>Project Type: </strong>${project_data[idx].area}</p>

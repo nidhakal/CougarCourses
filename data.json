@@ -161,10 +161,10 @@
     "CAP": 24,
     "Enr": 11,
     "Instructor": "Frederic Green",
-    "Modality": "HybridHybridHybrid",
-    "Days": "TRTRT",
-    "Times": "09:00 AM - 10:15 AM09:00 AM - 10:15 AM01:25 PM - 02:40 PM",
-    "Room": "BP326BP310BP310",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "BP326",
     "Comments": {
       "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
     },
@@ -180,10 +180,10 @@
     "CAP": 24,
     "Enr": 25,
     "Instructor": "Frederic Green",
-    "Modality": "HybridHybridHybrid",
-    "Days": "TRRTR",
-    "Times": "10:25 AM - 11:40 AM01:25 PM - 02:40 PM10:25 AM - 11:40 AM",
-    "Room": "BP310BP310BP326",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "BP310",
     "Comments": {
       "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
     },
@@ -220,8 +220,8 @@
     "Instructor": "Kenneth Basye",
     "Modality": "In-personIn-person",
     "Days": "MRT",
-    "Times": "02:50 PM - 04:05 PM02:50 PM - 04:05 PM",
-    "Room": "JF320JF320",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "JF320",
     "Comments": {
       "Prereq.": "P=CSCI 160; LAPTOP REQUIRED"
     },
@@ -239,8 +239,8 @@
     "Instructor": "Shuo Niu",
     "Modality": "In-personOnline",
     "Days": "MFW",
-    "Times": "10:25 AM - 11:40 AM10:25 AM - 11:40 AM",
-    "Room": "JF218ONLINE",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "JF218",
     "Comments": {
       "Prereq.": "P=CSCI 140 OR 160 OR 170"
     },
@@ -408,10 +408,10 @@
     "CAP": 20,
     "Enr": 19,
     "Instructor": "John Brown",
-    "Modality": "HybridOnline",
-    "Days": "MWFF",
-    "Times": "10:00 AM - 10:50 AM11:00 AM - 11:50 AM",
-    "Room": "S120ONLINE",
+    "Modality": "Hybrid",
+    "Days": "MWF",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "ONLINE",
     "Comments": {
       "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS; MUST REGISTER FOR DISC 904, 905, OR 906*"
     },
@@ -429,8 +429,8 @@
     "Instructor": "Edouard Wemy",
     "Modality": "In-personHybrid",
     "Days": "FTF",
-    "Times": "11:00 AM - 11:50 AM01:25 PM - 02:40 PM",
-    "Room": "JC120JC001",
+    "Times": "11:00 AM - 11:50 AM",
+    "Room": "JC120",
     "Comments": {
       "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS; MUST REGISTER FOR DISC 910, 911, OR 912*"
     },
