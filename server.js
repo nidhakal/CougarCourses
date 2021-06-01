@@ -545,3 +545,27 @@ app.get('/submit_project', (req, res) => {  if (req.isAuthenticated()) {
     res.redirect("/login?error=You need to login first")
 }
 });
+
+app.get("/get_courses_by_filter", (req, res) => {
+    let sk = req.query.search_key;
+    console.log(sk);
+    Course.find({
+        $and: [
+            {Title: {$regex: sk}}
+        ]
+    }, (err, data) =>{
+        if (err) {
+            res.send(
+                {
+                    "message": "db_error",
+                    "data": []
+                })
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+        console.log(data);
+    });
+});

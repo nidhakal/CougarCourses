@@ -22,8 +22,9 @@ function showList(course) {
 
     $('#course_list .row')
         .append('<div class="col-2 course_no" ></div>')
-        .append('<div class="col-3 title"></div>')
-        .append('<div class="col-3 time"></div>')
+        .append('<div class="col-2 title"></div>')
+        .append('<div class="col-2 time"></div>')
+        .append('<div class="col-2 days"></div>')
         .append('<div class="col-2 instructor"></div>')
         .append("<div class='col-2 d-flex justify-content-end buttonDiv'></div>");
 
@@ -41,6 +42,10 @@ function showList(course) {
         .append(function (idx) {
             return `<p class = "yea">${course[idx].Times}</p>`
         });
+    $('.days')
+        .append(function (idx) {
+            return `<p class = "yea">${course[idx].Days}</p>`
+        });
     $('.instructor')
         .append(function (idx) {
             return `<p class = "pri">${course[idx].Instructor}</p>`
@@ -48,7 +53,7 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<input type="button" class="btn btn-secondary" value="Select">`
+            return `<input type="button" class="btn btn-secondary" value="Select" onclick="schedule(${idx})">`
         });
 
     $('.button').on('click', function () {
@@ -77,29 +82,6 @@ $('.Make').on('click', function(){
     });
 });
 
-
-$('.Model').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/model").done(function (data) {
-        showList(data["data"]);
-    });
-});
-
-
-$('.Year').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/year").done(function (data) {
-        showList(data["data"]);
-    });
-});
-
-$('.Price').on('click', function(){
-    console.log("sort model")
-    $.getJSON("/price").done(function (data) {
-        showList(data["data"]);
-    });
-});
-
 $(document).ready(function (){
     $.getJSON('/get_current_user').done(function (data) {
         console.log(data)
@@ -111,3 +93,23 @@ $(document).ready(function (){
         }
     })
 })
+
+function searchCourses() {
+    $.get("/get_courses_by_filter", {
+        search_key: $('#search_box').val(),
+    }).done((data) => {
+        if (data.message === "success") {
+            showList(data.data);
+        }
+    })
+}
+
+function Scheduler() {
+   location.href = "/scheduler.html"
+}
+
+function schedule(i){
+    if(i == 9){
+        window.alert("you already have a class at this time");
+    }
+}

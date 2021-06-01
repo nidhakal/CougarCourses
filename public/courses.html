@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/courses.css">
 
     <!--    Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -83,13 +84,33 @@
     </nav>
 </section>
 <!-- End of Header -->
+<br>
+<!-- Search Bar -->
+<div class="row">
+    <div class="col-6">
+        <div class="input-group mb-3 search">
+            <input id="search_box" type="search" class="form-control" placeholder="Search Courses..."
+                   aria-label="Search"
+                   aria-describedby="basic-addon2" onsearch="searchCourses()">
+            <span class="input-group-text" id="basic-addon2" onclick="searchCourses()"><i
+                    class="fas fa-search"></i>
+        </span>
+        </div>
+    </div>
+    <div class="col-6">
+        <button type="button" class="btn btn-primary schedule-btn" onclick="Scheduler()">View Schedule</button>
+    </div>
+</div>
+<!-- End of Search Bar -->
+
 
 <br>
 <section id="cars">
     <div class="row"  id="headers">
         <div class="header col-2"><a class="CourseNo" style="color: black; text-decoration: none" >Course No.</a></div>
-        <div class="header col-3"><a class ="CourseName" style="color: black; text-decoration: none">Course Name</a></div>
-        <div class="header col-3"><a class = "Time" style="color: black; text-decoration: none">Time</a></div>
+        <div class="header col-2"><a class ="CourseName" style="color: black; text-decoration: none">Course Name</a></div>
+        <div class="header col-2"><a class = "Time" style="color: black; text-decoration: none">Time</a></div>
+        <div class="header col-2"><a class = "Time" style="color: black; text-decoration: none">Days</a></div>
         <div class="header col-2"><a class = "Instructor" style="color: black; text-decoration: none">Instructor</a></div>
     </div>
 
