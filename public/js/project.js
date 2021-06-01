@@ -64,7 +64,7 @@ function showProject(idx) {
                     <button type="button" class="btn btn-primary btn-contact" id ="projectEmail">Contact</button>
                     <hr>
                     <p class ="ma">${project_data[idx].description}</p>
-                    <p class ="ma"><strong>Preferred Qualifications: \n</strong>${project_data[idx].qualifications}</p>
+<!--                    <p class ="ma"><strong>Preferred Qualifications: \n</strong>${project_data[idx].qualifications}</p>-->
                         </div>`;
         })
 

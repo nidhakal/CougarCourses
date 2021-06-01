@@ -125,6 +125,20 @@ const userSchema= new mongoose.Schema(
     }
 );
 
+
+const projectSchema = new mongoose.Schema({
+        project_name: String,
+        area: String,
+        people: String,
+        location:String,
+        description: String,
+        posted_by: String,
+        posted_email: String
+    }
+)
+const Project = mongoose.model('project', projectSchema);
+projectlist = []
+
 userSchema.plugin(passportLocalMongoose);
 
 const User = mongoose.model('User', userSchema);
@@ -144,6 +158,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/get_current_user', function (req,res){
+    if(req.isAuthenticated()) {
+        loginName = req.user.fullname;
+        loginEmail = req.user.username;
+    }
     if(req.isAuthenticated()){
         console.log(req.user);
         res.send({
@@ -475,4 +493,55 @@ app.post('/PLS_not_taken', (req, res) => {
             data: ("/login")
         })
     }
+});
+
+app.get("/get_all_projects", function (req, res) {
+    // console.log("I am in get all projects")
+    Project.find(function (err, data) {
+        if (err) {
+            console.log("ERROR")
+            res.send({
+                "message": "internal database error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+            console.log(data);
+        }
+    });
+});
+
+app.post('/new-project',(req, res) => {
+    const project = {
+        project_name: req.body.project_name,
+        area: req.body.area,
+        people: req.body.people,
+        location: req.body.location,
+        description: req.body.description,
+        posted_by:loginName,
+        posted_email: loginEmail
+    }
+    console.log("save: " + req.body._id)
+    const np = new Project(project);
+    np.save(
+        (err, new_project) =>{
+            if (err){
+                console.log(err["message"]);
+                res.redirect("/project-submit.html?error_message=" + err["message"] + "&input=" + JSON.stringify(project))
+            }else{
+                console.log(new_project._id);
+                res.redirect("/project.html");
+            }
+        })
+
+});
+
+app.get('/submit_project', (req, res) => {  if (req.isAuthenticated()) {
+    res.redirect("/project-submit.html");
+} else {
+    res.redirect("/login?error=You need to login first")
+}
 });
