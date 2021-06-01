@@ -1,9 +1,10 @@
 function showList(course) {
     console.log("I am at showList");
-    $('#PLScourse_list').empty().append(`<ul class = 'PLSLists'></ul>`);
+    $('#PLScourse_list').empty();
+    PLScourses = course;
 
     for (let i = 0; i < course.length; i++) {
-        $('.PLSLists').append("<li class='PLSClass'></li>");
+        $('#PLScourse_list').append("<li class='list-group-item'></li>");
 
     }
     console.log(course)
@@ -25,21 +26,21 @@ function showList(course) {
     $('#PLScourse_list .row')
         .append('<div class="col-4 course_name" ></div>')
         .append('<div class="col-4 att"></div>')
-        .append('<div class="col-4 check"><input type="checkbox" id="flexCheckDefault" name="vehicle1" value="Bike">\n' +
-            '<label class="form-check-label" for="flexCheckDefault">Completed</label>')
+        .append('<div class="col-4 buttonDiv"></div>')
 
     $('.course_name')
         .append(function (idx) {
-            return `<p class="ma">${course[idx].name}</p>`;
+            return `<p class="ma">${course[idx].Name}</p>`;
         })
     $('.att')
         .append(function (idx) {
-            return `<p class="mo">${course[idx].attribute}</p>`
+            return `<p class="mo">${course[idx].Attribute}</p>`
         })
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<input type="button" class="btn btn-outline-primary button" value="Show More">`
+            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary" onclick="showPLSCourse(${idx})">Taken</button></div>`
+
         });
 
     $('.button').on('click', function () {
@@ -58,14 +59,43 @@ $.getJSON("/get_pls_courses").done(function (data) {
     }
 });
 
-$(document).ready(function (){
-    $.getJSON('/get_current_user').done(function (data) {
-        console.log(data)
-        if(data['message'] === "success"){
-            $('.login').remove();
-            $('#showname').text(data.data.fullname);
+
+let PLScourses = []
+let PLScourse_id = []
+// console.log(likes)
+
+function showPLSCourse(idx) {
+    console.log(PLScourses[idx])
+    // const courseID = $(this).val();
+    const course=PLScourses[idx]
+    PLScourse_id.push(idx)
+    $.post('/PLS_course_taken', {course}).done((data) =>{
+        console.log("this is data"+ data)
+        if(data["message"] === "success"){
+            //likes.push(cars[carID])
+            // location.reload()
+            // console.log(likes)
         }else{
-            $('.logout').remove()
+            location.href = data.data+"?error="+data.message;
         }
     })
-})
+}
+
+function PLSnotTaken(){
+    for (let i = 0; i < PLScourses.length; i++) {
+        if(!PLScourse_id.includes(i)){
+            const course= PLScourses[i]
+            $.post('/PLS_not_taken', {course}).done((data) =>{
+                console.log("this is data"+ data)
+                if(data["message"] === "success"){
+                    location.href = "profile.html"
+                    //likes.push(cars[carID])
+                    // location.reload()
+                    // console.log(likes)
+                }else{
+                    location.href = data.data+"?error="+data.message;
+                }
+            })
+        }
+    }
+}

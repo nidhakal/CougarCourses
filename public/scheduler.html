@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- Imports -->
 <head>
     <meta charset="UTF-8">
@@ -16,6 +17,7 @@
 
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/scheduler.css">
 
     <!--    Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,7 +30,7 @@
     <!--    Google jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="js/profile.js" defer></script>
+    <script src="js/index.js" defer></script>
 
 </head>
 <!-- End of Imports -->
@@ -81,57 +83,110 @@
         </div>
     </nav>
 </section>
-<!-- End of Header -->
+<!--End of Header-->
 
-<main>
-    <div id="profile-upper">
-        <div id="profile-banner-image">
-            <img src="https://alumni.clarku.edu/image/why-clark-landing-hero-clark-university.jpg" alt="Banner image">
-        </div>
-        <div id="profile-d">
-            <div id="profile-pic">
-                <img id="profile_img" src="img/placeholder.png" width="100%">
-            </div>
-            <div>
-                <h1 id="u-name"></h1>
-                <button type="button" id="edit-btn" class="btn btn-dark">Edit Profile</button>
-            </div>
-        </div>
-        </div>
-    </div>
-<!--    <div id="black-grd"></div>-->
-    </div>
-    <div id="main-content">
-        <div class="stu-course px-4 py-3">
-            <h5 class="mb-0">Major Remaining</h5>
-            <div class="p-4 rounded shadow-sm bg-light">
-                <ul id = "not-taken-course">
+<!--Scheduler-->
+<table class="table table-borderless" id="classSchedule">
+    <thead>
+    <tr>
+        <th scope="col">Time/Day</th>
+        <th scope="col">Sunday</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">8:00</th>
+        <td rowspan="3" class="CSClass" align="center">CS Class</td>
+    </tr>
+    <tr>
+        <th scope="row">8:30</th>
+    </tr>
+    <tr>
+        <th scope="row">9:00</th>
+    </tr>
+    <tr>
+        <th scope="row">9:30</th>
+    </tr>
+    <tr>
+        <th scope="row">10:00</th>
+    </tr>
+    <tr>
+        <th scope="row">10:30</th>
+    </tr>
+    <tr>
+        <th scope="row">11:00</th>
+    </tr>
+    <tr>
+        <th scope="row">11:30</th>
+    </tr>
+    <tr>
+        <th scope="row">12:00</th>
+    </tr>
+    <tr>
+        <th scope="row">12:30</th>
+    </tr>
+    <tr>
+        <th scope="row">1:00</th>
+    </tr>
+    <tr>
+        <th scope="row">1:30</th>
+    </tr>
+    <tr>
+        <th scope="row">2:00</th>
+    </tr>
+    <tr>
+        <th scope="row">2:30</th>
+    </tr>
+    <tr>
+        <th scope="row">3:00</th>
+    </tr>
+    <tr>
+        <th scope="row">3:30</th>
+    </tr>
+    <tr>
+        <th scope="row">4:00</th>
+    </tr>
+    <tr>
+        <th scope="row">4:30</th>
+    </tr>
+    <tr>
+        <th scope="row">5:00</th>
+    </tr>
+    <tr>
+        <th scope="row">5:30</th>
+    </tr>
+    <tr>
+        <th scope="row">6:00</th>
+    </tr>
+    <tr>
+        <th scope="row">6:30</th>
+    </tr>
+    <tr>
+        <th scope="row">7:00</th>
+    </tr>
+    <tr>
+        <th scope="row">7:30</th>
+    </tr>
+    <tr>
+        <th scope="row">8:00</th>
+    </tr>
+    <tr>
+        <th scope="row">8:30</th>
+    </tr>
+    <tr>
+        <th scope="row">9:00</th>
+    </tr>
+    <tr>
+        <th scope="row">9:30</th>
+    </tr>
+    </tbody>
+</table>
 
-                </ul>
-            </div>
-            <br>
-            <h5 class="mb-0">PLS Courses Remaining</h5>
-            <div class="p-4 rounded shadow-sm bg-light">
-                <ul id = "not-taken-PLS-course">
-
-                </ul>
-            </div>
-            <br>
-            <h5 class="mb-0">Courses Taken</h5>
-            <div class="p-4 rounded shadow-sm bg-light">
-                <ul id = "taken-course">
-                </ul>
-            </div>
-
-            <h5 class="mb-0">PLS Courses Taken</h5>
-            <div class="p-4 rounded shadow-sm bg-light">
-                <ul id = "taken-PLS-course">
-
-                </ul>
-            </div>
-            <br>
-        </div>
-    </div>
-</main>
+<!--End of Scheduler-->
 </body>
-
+</html>
