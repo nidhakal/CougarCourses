@@ -11,17 +11,42 @@
     margin-top: 2%;
     font-family: Raleway;
     font-weight: bold;
+
 }
 
 .CourseNo{
-    margin-left: 58px;
+    margin-left: 30%;
 }
 
 .course_name{
     padding-left: 3%;
 }
 
-.CourseName{
-    padding-left: 121px;
+
+.taken-btn {
+    background-color: green;
+    color: white;
+    border: none;
 }
 
+.next-btn {
+    background-color: green;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*margin-top: 1%;*/
+    margin-left: 77%;
+}
+
+.PLSClass{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.buttonDiv{
+    padding-left: 200px;
+    margin: auto;
+}
+
+#headers{
+    margin-left: 4%;
+}
