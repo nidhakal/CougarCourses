@@ -46,6 +46,7 @@ function showList(course) {
 }
 
 
+
 $.getJSON("/get_cs_courses").done(function (data) {
     // console.log(data)
     if (data.message === "success") {
