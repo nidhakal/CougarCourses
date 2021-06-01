@@ -10,3 +10,13 @@
 #taken-PLS-course li{
     background-color: #f8f9fa !important;
 }
+
+.edit-btn{
+    background-color: var(--true-red);
+    color: white;
+}
+
+.head{
+    font-weight: bold;
+    color: var(--true-red);
+}
