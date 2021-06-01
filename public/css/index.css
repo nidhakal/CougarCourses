@@ -230,10 +230,8 @@ header
     alignment: right;
 }
 
-#note{
-    font-size: large;
-    font-family: 'Noto Sans Jp',sans-serif ;
+#headers2{
+    padding-left: 16%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
-
-
-

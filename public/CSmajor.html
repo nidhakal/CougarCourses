@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/CSmajor.css">
+
 
     <!--    Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -87,22 +89,34 @@
 <!--<section>-->
 <!--    <img id="logo" src="img/logo.png" alt="Clark Logo">-->
 <!--</section>-->
+<section class="major-header">
+    <h1>Computer Science Major at Clark University</h1>
+</section>
 
-<section>
-    <p>Please Select the CS courses that you have already completed:</p>
+<section class="note">
+    <p>The computer science major follows the ACM curriculum guidelines. Two courses or an accelerated Honors course in
+        fundamentals of computer science, and one course in discrete mathematics, serve as general introductory courses.
+        Four intermediate courses (core requirements) expose the principles of computer science. One year of calculus is
+        required and should be completed as soon as possible, if at all possible by the end of the sophomore year.
+        Beyond this, a series of elective courses is offered in which applications and advanced topics are explored.
+        <strong>Please select the courses that you have already completed by clicking on the green "completed" button.</strong>
+    </p>
+<!--    <p> Please select the courses that you have already completed by clicking on the green "completed" button.</p>-->
 </section>
 <br>
 
 <section id="cars">
-    <div class="row"  id="headers">
-        <div class="header col-2"><a class="CourseNo" style="color: black; text-decoration: none" >Course No.</a></div>
-        <div class="header col-5"><a class ="CourseName" style="color: black; text-decoration: none">Course Name</a></div>
+    <div class="row" id="headers">
+        <div class="header col-2"><a class="CourseNo" style="color: black; text-decoration: none; font-weight: bold">Course
+            No.</a></div>
+        <div class="header col-5"><a class="CourseName" style="color: black; text-decoration: none; font-weight: bold">Course
+            Name</a></div>
     </div>
 
-    <div id="CScourse_list" >
+    <div id="CScourse_list">
 
     </div>
-    <button type="button" class="btn btn-success next-btn" style="margin-left: 93%" onclick="notTaken()">Next</button>
+    <button type="button" class="btn btn-success next-btn" onclick="notTaken()">Next</button>
 </section>
 
 <!-- Footer -->

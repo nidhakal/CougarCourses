@@ -1,0 +1,62 @@
+.next-btn {
+    background-color: green;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*margin-top: 1%;*/
+    margin-left: 74%;
+}
+
+.taken-btn {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.courseList {
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#classes {
+    padding-bottom: 1%;
+}
+
+#headers {
+    padding-left: 24%;
+    padding-bottom: 1%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.CourseNo {
+    margin-left: 10%;
+
+}
+
+.note {
+    margin-top: 1%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: justify;
+    font-family: Raleway;
+
+
+}
+
+.course_numb {
+    padding-left: 6%;
+}
+
+.selectedBtn {
+    background-color: black;
+}
+
+.major-header {
+    text-align: center;
+    margin-top: 2%;
+    font-family: Raleway;
+    font-weight: bold;
+}

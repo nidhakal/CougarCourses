@@ -1,0 +1,27 @@
+#note{
+    text-align: justify;
+    font-family: Raleway;
+}
+.PLSClass{
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+.major-header {
+    text-align: center;
+    margin-top: 2%;
+    font-family: Raleway;
+    font-weight: bold;
+
+}
+
+.CourseNo{
+    margin-left: 58px;
+}
+
+.course_name{
+    padding-left: 3%;
+}
+
+.CourseName{
+    padding-left: 121px;
+}

@@ -1,10 +1,11 @@
 function showList(course) {
     courses = course;
     console.log("I am at showList");
-    $('#CScourse_list').empty();
+    $('#CScourse_list').empty()
+    .append(`<ul class = 'courseList'></ul>`)
 
     for (let i = 0; i < course.length; i++) {
-        $('#CScourse_list').append("<li class='list-group-item'></li>");
+        $('.courseList').append("<li id = 'classes'></li>");
     }
 
     $('#CScourse_list li')
@@ -22,12 +23,9 @@ function showList(course) {
     });
 
     $('#CScourse_list .row')
-        .append('<div class="col-2 course_numb" ></div>')
-        .append('<div class="col-4 title1"></div>')
-        .append('<div class="col-4 buttonDiv"></div>')
-
-
-
+        .append('<div class="col-3 course_numb" ></div>')
+        .append('<div class="col-6 title1"></div>')
+        .append('<div class="col-2 buttonDiv"></div>')
 
     $('.course_numb')
         .append(function (idx) {
@@ -41,7 +39,7 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary" onclick="showCourse(${idx})">Taken</button></div>`
+            return `<div class="col- d-flex justify-content-end"><button id="taken" class="btn btn-outline-primary taken-btn" onclick="showCourse(${idx})">Completed</button></div>`
         });
 
 
@@ -65,6 +63,7 @@ function showCourse(idx) {
     // const courseID = $(this).val();
     const course=courses[idx]
     course_id.push(idx)
+    // document.getElementById('taken').classList.add('selectedBtn')
     $.post('/course_taken', {course}).done((data) =>{
         console.log("this is data"+ data)
         if(data["message"] === "success"){
@@ -75,6 +74,7 @@ function showCourse(idx) {
             location.href = data.data+"?error="+data.message;
         }
     })
+
 }
 
 function notTaken(){
@@ -95,7 +95,9 @@ function notTaken(){
     }
 }
 
-
+// $('#taken').on('click',function (){
+//     $(this).addClass('selectedBtn')
+// })
 
 $(document).ready(function (){
     $.getJSON('/get_current_user').done(function (data) {

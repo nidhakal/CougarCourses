@@ -1,9 +1,9 @@
 function showList(course) {
     console.log("I am at showList");
-    $('#PLScourse_list').empty();
+    $('#PLScourse_list').empty().append(`<ul class = 'PLSLists'></ul>`);
 
     for (let i = 0; i < course.length; i++) {
-        $('#PLScourse_list').append("<li class='list-group-item'></li>");
+        $('.PLSLists').append("<li class='PLSClass'></li>");
 
     }
     console.log(course)
