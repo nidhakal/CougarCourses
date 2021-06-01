@@ -1,11 +1,35 @@
-#classSchedule .CSClass{
+#classSchedule .HistClass{
     background-color: #4267b2;
     box-shadow: 5px 5px darkslateblue;
     border-radius: 10%;
     z-index: 10;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 15px;
+
+}
+#classSchedule .CSClass{
+    background-color: darkseagreen;
+    box-shadow: 5px 5px darkolivegreen;
+    border-radius: 10%;
+    z-index: 10;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 15px;
+
+}
+#classSchedule .PsychClass{
+    background-color: darkred;
+    box-shadow: 5px 5px indianred;
+    border-radius: 10%;
+    z-index: 10;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 15px;
 
 }
 #classSchedule td{
+    font-size: small;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
