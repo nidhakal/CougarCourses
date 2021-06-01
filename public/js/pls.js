@@ -39,7 +39,7 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary" onclick="showPLSCourse(${idx})">Taken</button></div>`
+            return `<div class="col-2 d-flex justify-content-end"><button class="btn btn-outline-primary taken-btn" onclick="showPLSCourse(${idx})">Completed</button></div>`
 
         });
 
