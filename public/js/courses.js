@@ -1,9 +1,9 @@
 function showList(course) {
     console.log("I am at showList");
-    $('#course_list').empty();
+    $('#course_list').empty().append(`<ul class="AllClasses"></ul>`);
 
     for (let i = 0; i < course.length; i++) {
-        $('#course_list').append("<li class='list-group-item'></li>");
+        $('.AllClasses').append("<li class='AllCourse'></li>");
     }
 
     $('#course_list li')
@@ -21,10 +21,10 @@ function showList(course) {
     });
 
     $('#course_list .row')
-        .append('<div class="col-2 course_no" ></div>')
-        .append('<div class="col-2 title"></div>')
-        .append('<div class="col-2 time"></div>')
-        .append('<div class="col-2 days"></div>')
+        .append('<div class="col-1 course_no" ></div>')
+        .append('<div class="col-3 title"></div>')
+        .append('<div class="col-3 time"></div>')
+        .append('<div class="col-1 days"></div>')
         .append('<div class="col-2 instructor"></div>')
         .append("<div class='col-2 d-flex justify-content-end buttonDiv'></div>");
 
@@ -53,7 +53,7 @@ function showList(course) {
 
     $('.buttonDiv')
         .append(function (idx) {
-            return `<input type="button" class="btn btn-secondary" value="Select" onclick="schedule(${idx})">`
+            return `<input type="button" class="btn btn-secondary btn-slct" value="Select" onclick="schedule(${idx})">`
         });
 
     $('.button').on('click', function () {

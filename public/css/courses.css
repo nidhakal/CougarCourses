@@ -1,6 +1,58 @@
 .schedule-btn{
     alignment: right;
-    margin-left: 78%;
+    margin-left: 79%;
     background-color: var(--true-red);
     border: none;
+}
+
+.AllCourse{
+padding-bottom: 1%;
+}
+.AllClasses{
+    list-style-type: none;
+}
+
+.headers{
+    margin-left: 60%;
+}
+
+.ins{
+    margin-left: 7%;
+}
+
+.dys{
+    padding-left: 18%;
+}
+
+.tm{
+    padding-left: 11%;
+}
+
+.cn{
+    padding-left: 3%;
+}
+
+.cnum{
+    padding-left: 3%;
+}
+
+.btn-slct{
+    background-color: green;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.buttonDiv{
+    padding-right: 6%;
+
+}
+
+.search{
+    margin-left: 3%;
+}
+
+.coursesfall{
+    font-family: Raleway;
+    margin-left: 2%;
 }
