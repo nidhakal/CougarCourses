@@ -521,7 +521,7 @@ app.post('/new-project',(req, res) => {
         people: req.body.people,
         location: req.body.location,
         description: req.body.description,
-        posted_by:loginName,
+        posted_by: loginName,
         posted_email: loginEmail
     }
     console.log("save: " + req.body._id)
