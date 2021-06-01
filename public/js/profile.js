@@ -52,3 +52,6 @@ $(document).ready(function (){
 
 
 
+function editProfile(){
+    location.href = "CSmajor.html"
+}
