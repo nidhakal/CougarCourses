@@ -27,8 +27,6 @@ function showList(course) {
         .append('<div class="col-4 buttonDiv"></div>')
 
 
-
-
     $('.course_numb')
         .append(function (idx) {
             return `<p class="ma">${course[idx].Course_num}</p>`;
@@ -84,6 +82,7 @@ function notTaken(){
             $.post('/not_taken', {course}).done((data) =>{
                 console.log("this is data"+ data)
                 if(data["message"] === "success"){
+                    location.href = "pls.html"
                     //likes.push(cars[carID])
                     // location.reload()
                     // console.log(likes)
@@ -97,14 +96,3 @@ function notTaken(){
 
 
 
-$(document).ready(function (){
-    $.getJSON('/get_current_user').done(function (data) {
-        console.log(data)
-        if(data['message'] === "success"){
-            $('.login').remove();
-            $('#showname').text(data.data.fullname);
-        }else{
-            $('.logout').remove()
-        }
-    })
-})

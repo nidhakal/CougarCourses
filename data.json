@@ -1,220 +1,258 @@
 [
   {
-    "CRN": 38578,
+    "CRN": 20118,
     "Course #": "CSCI 120",
     "Sc": 1,
     "Title": "INTRODUCTION TO COMPUTING",
     "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 22,
-    "Instructor": "Tricia Magee",
-    "Modality": "Online",
-    "Days": "TR",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": ""
-    },
-    "Perm Only": "Y"
-  },
-  {
-    "CRN": 38781,
-    "Course #": "CSCI 120",
-    "Sc": 2,
-    "Title": "INTRODUCTION TO COMPUTING",
-    "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 18,
-    "Instructor": "Tricia Magee",
-    "Modality": "Online",
-    "Days": "TR",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": ""
-    },
-    "Perm Only": "Y"
-  },
-  {
-    "CRN": 30703,
-    "Course #": "CSCI 121",
-    "Sc": 1,
-    "Title": "DATA STRUCTURES",
-    "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 18,
-    "Instructor": "Li Han",
-    "Modality": "Hybrid",
-    "Days": "MF",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "BP326",
-    "Comments": {
-      "Prereq.": "P= CSCI 120; MUST REG FOR LAB"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 38579,
-    "Course #": "CSCI 121",
-    "Sc": 2,
-    "Title": "DATA STRUCTURES",
-    "Attribute": "SP",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 24,
-    "Instructor": "Li Han",
-    "Modality": "Hybrid",
-    "Days": "MF",
-    "Times": "10:25 AM - 11:40 AM",
-    "Room": "BP316",
-    "Comments": {
-      "Prereq.": "P=CSCI 120; MUST REG FOR LAB"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 31946,
-    "Course #": "CSCI 121",
-    "Sc": 901,
-    "Title": "LAB: DATA STRUCTURES",
-    "Attribute": "SP",
-    "Units": "0",
-    "CAP": 58,
+    "Units": 1,
+    "CAP": 48,
     "Enr": 42,
-    "Instructor": "Li Han",
-    "Modality": "Online",
-    "Days": "W",
-    "Times": "09:00 AM - 10:15 AM",
-    "Room": "ONLINE",
-    "Comments": {
-      "Prereq.": ""
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 37136,
-    "Course #": "CSCI 140",
-    "Sc": 1,
-    "Title": "ASSEMBLY LANG & COMPUTER ORG",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 24,
-    "Instructor": "John Magee",
-    "Modality": "In-personIn-person",
-    "Days": "MFW",
-    "Times": "10:25 AM - 11:40 AM",
-    "Room": "JC001JC001",
-    "Comments": {
-      "Prereq.": "P=CSCI 121 OR 124; FLEXIBLE MODALITY"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 35741,
-    "Course #": "CSCI 170",
-    "Sc": 1,
-    "Title": "ANALYSIS OF PROG LANGUAGE",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 26,
-    "Instructor": "Kenneth Basye",
-    "Modality": "In-personIn-person",
-    "Days": "TRM",
-    "Times": "04:15 PM - 05:30 PM",
-    "Room": "BICKMULTIBICKMULTI",
-    "Comments": {
-      "Prereq.": "P=CSCI 121 OR 124 & MATH 114"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 38701,
-    "Course #": "CSCI 201",
-    "Sc": 1,
-    "Title": "PROSEMINAR: WEB DEVELOPMENT",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 24,
-    "Instructor": "Shuo Niu",
-    "Modality": "HybridHybrid",
-    "Days": "FTR",
-    "Times": "01:25 PM - 02:40 PM",
-    "Room": "BP316BP326",
-    "Comments": {
-      "Prereq.": "P=CSCI 160"
-    },
-    "Perm Only": "N"
-  },
-  {
-    "CRN": 38733,
-    "Course #": "CSCI 250",
-    "Sc": 1,
-    "Title": "SOFTWARE ENGINEERING",
-    "Attribute": "POP",
-    "Units": "1",
-    "CAP": 35,
-    "Enr": 30,
     "Instructor": "John Magee",
     "Modality": "Hybrid",
     "Days": "MW",
     "Times": "12:00 PM - 01:15 PM",
-    "Room": "BICKMULTI",
+    "Room": "JC001",
     "Comments": {
-      "Prereq.": "P=CSCI 160 OR 170; FLEXIBLE MODALITY"
+      "Prereq.": "LAPTOP REQUIRED; SOME SEATS RESERVED FOR 1ST YR INCOMING STUDENTS*; MUST REGISTER FOR LAB"
     },
-    "Perm Only": "N"
+    "Perm Only": "Y"
   },
   {
-    "CRN": 38582,
-    "Course #": "CSCI 270",
-    "Sc": 1,
-    "Title": "THEORY OF COMPUTATION",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 24,
-    "Enr": 9,
-    "Instructor": "Frederic Green",
+    "CRN": 21478,
+    "Course #": "CSCI 120",
+    "Sc": 2,
+    "Title": "INTRODUCTION TO COMPUTING",
+    "Attribute": "SP",
+    "Units": 1,
+    "CAP": 48,
+    "Enr": 24,
+    "Instructor": "John Magee",
     "Modality": "Hybrid",
-    "Days": "TF",
-    "Times": "12:00 PM - 01:15 PM",
-    "Room": "BP217",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "JC001",
     "Comments": {
-      "Prereq.": "P=CSCI 180"
+      "Prereq.": "LAPTOP REQUIRED; SOME SEATS RESERVED FOR 1ST YR INCOMING STUDENT*; MUST REGISTER FOR LAB"
     },
-    "Perm Only": "N"
+    "Perm Only": "Y"
   },
   {
-    "CRN": 30228,
-    "Course #": "CSCI 297",
-    "Sc": 1,
-    "Title": "HONORS",
-    "Attribute": "",
-    "Units": "1",
-    "CAP": 10,
-    "Enr": 0,
-    "Instructor": "Frederic Green",
+    "CRN": 28089,
+    "Course #": "CSCI 120",
+    "Sc": 3,
+    "Title": "INTRODUCTION TO COMPUTING",
+    "Attribute": "SP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 14,
+    "Instructor": "Tricia Magee",
+    "Modality": "Hybrid",
+    "Days": "MW",
+    "Times": "06:00 PM - 07:15 PM",
+    "Room": "JF222",
+    "Comments": {
+      "Prereq.": "MUST REGISTER FOR LAB; LAPTOP REQUIRED"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 28329,
+    "Course #": "CSCI 120",
+    "Sc": 4,
+    "Title": "INTRODUCTION TO COMPUTING",
+    "Attribute": "SP",
+    "Units": 1,
+    "CAP": 36,
+    "Enr": 8,
+    "Instructor": "John Magee",
     "Modality": "Online",
     "Days": "-",
     "Times": "-",
     "Room": "ONLINE",
     "Comments": {
-      "Prereq.": ""
+      "Prereq.": "MUST REGISTER FOR LAB"
     },
     "Perm Only": "Y"
   },
   {
-    "CRN": 32740,
+    "CRN": 28087,
+    "Course #": "CSCI 120",
+    "Sc": 901,
+    "Title": "LAB: INTRO TO COMPUTING",
+    "Attribute": "SP",
+    "Units": 0,
+    "CAP": 65,
+    "Enr": 39,
+    "Instructor": "John Magee",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "LAPTOP REQUIRED"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28088,
+    "Course #": "CSCI 120",
+    "Sc": 902,
+    "Title": "LAB: INTRO TO COMPUTING",
+    "Attribute": "SP",
+    "Units": 0,
+    "CAP": 65,
+    "Enr": 31,
+    "Instructor": "John Magee",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 04:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "LAPTOP REQUIRED"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28238,
+    "Course #": "CSCI 120",
+    "Sc": 903,
+    "Title": "LAB: INTRO TO COMPUTING",
+    "Attribute": "FYISP",
+    "Units": 0,
+    "CAP": 16,
+    "Enr": 9,
+    "Instructor": "John Magee",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE LAB SECTION; SEATS RESERVED FOR INCOMING 1ST YR STUDENTS*; MUST REGISTER FOR LECTURE 01 OR 02; LAPTOP REQUIRED"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28239,
+    "Course #": "CSCI 120",
+    "Sc": 904,
+    "Title": "LAB: INTRO TO COMPUTING",
+    "Attribute": "FYISP",
+    "Units": 0,
+    "CAP": 16,
+    "Enr": 9,
+    "Instructor": "John Magee",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 04:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE LAB SECTION; SEATS RESERVED FOR INCOMING FIRST YR STUDENTS*; MUST REGISTER FOR LECTURE 01 OR 02 ; LAPTOP REQUIRED"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 26663,
+    "Course #": "CSCI 160",
+    "Sc": 1,
+    "Title": "ALGORITHMS",
+    "Attribute": "",
+    "Units": 1,
+    "CAP": 24,
+    "Enr": 11,
+    "Instructor": "Frederic Green",
+    "Modality": "HybridHybridHybrid",
+    "Days": "TRTRT",
+    "Times": "09:00 AM - 10:15 AM09:00 AM - 10:15 AM01:25 PM - 02:40 PM",
+    "Room": "BP326BP310BP310",
+    "Comments": {
+      "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27391,
+    "Course #": "CSCI 160",
+    "Sc": 2,
+    "Title": "ALGORITHMS",
+    "Attribute": "",
+    "Units": 1,
+    "CAP": 24,
+    "Enr": 25,
+    "Instructor": "Frederic Green",
+    "Modality": "HybridHybridHybrid",
+    "Days": "TRRTR",
+    "Times": "10:25 AM - 11:40 AM01:25 PM - 02:40 PM10:25 AM - 11:40 AM",
+    "Room": "BP310BP310BP326",
+    "Comments": {
+      "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 25278,
+    "Course #": "CSCI 180",
+    "Sc": 1,
+    "Title": "AUTOMATA THEORY",
+    "Attribute": "",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 26,
+    "Instructor": "Kenneth Basye",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "JF320",
+    "Comments": {
+      "Prereq.": "P=MATH 114 & P=CSCI 121 OR 124"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27980,
+    "Course #": "CSCI 210",
+    "Sc": 1,
+    "Title": "ARTIFICIAL INTELLIGENCE",
+    "Attribute": "",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 27,
+    "Instructor": "Kenneth Basye",
+    "Modality": "In-personIn-person",
+    "Days": "MRT",
+    "Times": "02:50 PM - 04:05 PM02:50 PM - 04:05 PM",
+    "Room": "JF320JF320",
+    "Comments": {
+      "Prereq.": "P=CSCI 160; LAPTOP REQUIRED"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27988,
+    "Course #": "CSCI 245",
+    "Sc": 1,
+    "Title": "MOBILE SOFTWARE DEVELOPMENT",
+    "Attribute": "POP",
+    "Units": 1,
+    "CAP": 22,
+    "Enr": 17,
+    "Instructor": "Shuo Niu",
+    "Modality": "In-personOnline",
+    "Days": "MFW",
+    "Times": "10:25 AM - 11:40 AM10:25 AM - 11:40 AM",
+    "Room": "JF218ONLINE",
+    "Comments": {
+      "Prereq.": "P=CSCI 140 OR 160 OR 170"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20833,
     "Course #": "CSCI 297",
-    "Sc": 3,
+    "Sc": 1,
     "Title": "HONORS",
     "Attribute": "",
-    "Units": "1",
+    "Units": 1,
     "CAP": 10,
     "Enr": 0,
     "Instructor": "John Magee",
@@ -228,12 +266,31 @@
     "Perm Only": "Y"
   },
   {
-    "CRN": 35227,
+    "CRN": 20834,
     "Course #": "CSCI 297",
-    "Sc": 4,
+    "Sc": 2,
     "Title": "HONORS",
     "Attribute": "",
-    "Units": "1",
+    "Units": 1,
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Frederic Green",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20835,
+    "Course #": "CSCI 297",
+    "Sc": 3,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": 1,
     "CAP": 10,
     "Enr": 0,
     "Instructor": "Li Han",
@@ -247,14 +304,14 @@
     "Perm Only": "Y"
   },
   {
-    "CRN": 38248,
+    "CRN": 28070,
     "Course #": "CSCI 297",
-    "Sc": 5,
+    "Sc": 4,
     "Title": "HONORS",
     "Attribute": "",
-    "Units": "1",
+    "Units": 1,
     "CAP": 10,
-    "Enr": 1,
+    "Enr": 2,
     "Instructor": "Kenneth Basye",
     "Modality": "Online",
     "Days": "-",
@@ -266,15 +323,661 @@
     "Perm Only": "Y"
   },
   {
-    "CRN": 33724,
-    "Course #": "CSCI 298",
+    "CRN": 21108,
+    "Course #": "CSCI 299",
+    "Sc": 0,
+    "Title": "DIRECTED STUDY",
+    "Attribute": "",
+    "Units": 1,
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "CONTACT A FACULTY MEMBER TO ARRANGE"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20002,
+    "Course #": "ECON 010",
+    "Sc": 2,
+    "Title": "ECONOMICS & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "1",
+    "CAP": 35,
+    "Enr": 38,
+    "Instructor": "John Brown",
+    "Modality": "Hybrid",
+    "Days": "MWF",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "S120",
+    "Comments": {
+      "Prereq.": "MUST REGISTER FOR DISC 904, 905, OR 906"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20004,
+    "Course #": "ECON 010",
+    "Sc": 4,
+    "Title": "ECONOMICS & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "1",
+    "CAP": 36,
+    "Enr": 36,
+    "Instructor": "Edouard Wemy",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "JC001",
+    "Comments": {
+      "Prereq.": "MUST REGISTER FOR DISC 910, 911 OR 912"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 21191,
+    "Course #": "ECON 010",
+    "Sc": 5,
+    "Title": "ECONOMICS & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "1",
+    "CAP": 55,
+    "Enr": 55,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "S120",
+    "Comments": {
+      "Prereq.": "MUST REGISTER FOR DISC 913, 914 OR 915"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22473,
+    "Course #": "ECON 010",
+    "Sc": 6,
+    "Title": "ECONOMICS & THE WORLD ECONOMY",
+    "Attribute": "FYIGP",
+    "Units": "1",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "John Brown",
+    "Modality": "HybridOnline",
+    "Days": "MWFF",
+    "Times": "10:00 AM - 10:50 AM11:00 AM - 11:50 AM",
+    "Room": "S120ONLINE",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS; MUST REGISTER FOR DISC 904, 905, OR 906*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22474,
+    "Course #": "ECON 010",
+    "Sc": 7,
+    "Title": "ECONOMICS & THE WORLD ECONOMY",
+    "Attribute": "FYIGP",
+    "Units": "1",
+    "CAP": 19,
+    "Enr": 18,
+    "Instructor": "Edouard Wemy",
+    "Modality": "In-personHybrid",
+    "Days": "FTF",
+    "Times": "11:00 AM - 11:50 AM01:25 PM - 02:40 PM",
+    "Room": "JC120JC001",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS; MUST REGISTER FOR DISC 910, 911, OR 912*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27156,
+    "Course #": "ECON 010",
+    "Sc": 904,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "John Brown",
+    "Modality": "In-person",
+    "Days": "R",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "JC218",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27157,
+    "Course #": "ECON 010",
+    "Sc": 905,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "John Brown",
+    "Modality": "In-person",
+    "Days": "R",
+    "Times": "06:00 PM - 06:50 PM",
+    "Room": "JF133",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27158,
+    "Course #": "ECON 010",
+    "Sc": 906,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 17,
+    "Instructor": "John Brown",
+    "Modality": "In-person",
+    "Days": "R",
+    "Times": "07:20 PM - 08:10 PM",
+    "Room": "JF133",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27162,
+    "Course #": "ECON 010",
+    "Sc": 910,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Edouard Wemy",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "JC120",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27163,
+    "Course #": "ECON 010",
+    "Sc": 911,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Edouard Wemy",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "06:00 PM - 06:50 PM",
+    "Room": "JC215",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27164,
+    "Course #": "ECON 010",
+    "Sc": 912,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 15,
+    "Instructor": "Edouard Wemy",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "07:20 PM - 08:10 PM",
+    "Room": "JC215",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27165,
+    "Course #": "ECON 010",
+    "Sc": 913,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 18,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "JC215",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27166,
+    "Course #": "ECON 010",
+    "Sc": 914,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 18,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "06:00 PM - 06:50 PM",
+    "Room": "JC220",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27167,
+    "Course #": "ECON 010",
+    "Sc": 915,
+    "Title": "DISC: ECON & THE WORLD ECONOMY",
+    "Attribute": "GP",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "07:20 PM - 08:10 PM",
+    "Room": "JC220",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20005,
+    "Course #": "ECON 011",
+    "Sc": 1,
+    "Title": "PRINCIPLES OF ECONOMICS",
+    "Attribute": "FA",
+    "Units": "1",
+    "CAP": 45,
+    "Enr": 25,
+    "Instructor": "Savannah Adkins",
+    "Modality": "In-person",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "JF320",
+    "Comments": {
+      "Prereq.": "P = ECON 010; MUST REGISTER FOR DISC;"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27168,
+    "Course #": "ECON 011",
+    "Sc": 901,
+    "Title": "DISC: PRINCIPLES OF ECONOMICS",
+    "Attribute": "FA",
+    "Units": "0",
+    "CAP": 15,
+    "Enr": 9,
+    "Instructor": "Savannah Adkins",
+    "Modality": "In-person",
+    "Days": "F",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "S321",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27169,
+    "Course #": "ECON 011",
+    "Sc": 902,
+    "Title": "DISC: PRINCIPLES OF ECONOMICS",
+    "Attribute": "FA",
+    "Units": "0",
+    "CAP": 15,
+    "Enr": 9,
+    "Instructor": "Savannah Adkins",
+    "Modality": "In-person",
+    "Days": "F",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "JC106",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27170,
+    "Course #": "ECON 011",
+    "Sc": 903,
+    "Title": "DISC: PRINCIPLES OF ECONOMICS",
+    "Attribute": "FA",
+    "Units": "0",
+    "CAP": 15,
+    "Enr": 7,
+    "Instructor": "Savannah Adkins",
+    "Modality": "In-person",
+    "Days": "F",
+    "Times": "03:00 PM - 03:50 PM",
+    "Room": "JC206",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27393,
+    "Course #": "ECON 128",
+    "Sc": 1,
+    "Title": "INTRO TO ECON DEVELOPMENT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 43,
+    "Instructor": "Magda Tsaneva",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=ECON 10 OR 100 OR 1010"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20007,
+    "Course #": "ECON 160",
+    "Sc": 1,
+    "Title": "INTRO TO STATISTICAL ANALYSIS",
+    "Attribute": "FA",
+    "Units": "1",
+    "CAP": 32,
+    "Enr": 25,
+    "Instructor": "Hermine Vedogbeton",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "GRACE",
+    "Comments": {
+      "Prereq.": "P= ECON 010 OR PERM; MUST REG FOR LAB"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20010,
+    "Course #": "ECON 160",
+    "Sc": 901,
+    "Title": "LAB: INTRO TO STAT ANALYSIS",
+    "Attribute": "FA",
+    "Units": "0",
+    "CAP": 16,
+    "Enr": 16,
+    "Instructor": "Hermine Vedogbeton",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "JC105",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20011,
+    "Course #": "ECON 160",
+    "Sc": 902,
+    "Title": "LAB: INTRO TO STAT ANALYSIS",
+    "Attribute": "FA",
+    "Units": "0",
+    "CAP": 16,
+    "Enr": 9,
+    "Instructor": "Hermine Vedogbeton",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "04:00 PM - 04:50 PM",
+    "Room": "JC105",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20013,
+    "Course #": "ECON 205",
+    "Sc": 1,
+    "Title": "MICROECONOMIC THEORY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 45,
+    "Enr": 36,
+    "Instructor": "Jacqueline Geoghegan",
+    "Modality": "Hybrid",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "GRACE",
+    "Comments": {
+      "Prereq.": "P= ECON 010 AND ECON 011"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24554,
+    "Course #": "ECON 206",
+    "Sc": 1,
+    "Title": "MACROECONOMIC THEORY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 45,
+    "Enr": 30,
+    "Instructor": "David Cuberes",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "JC217",
+    "Comments": {
+      "Prereq.": "P=ECON 010 & 011"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27177,
+    "Course #": "ECON 213",
+    "Sc": 1,
+    "Title": "MONEY & BANKING",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 25,
+    "Enr": 30,
+    "Instructor": "David Cuberes",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "JC217",
+    "Comments": {
+      "Prereq.": "P=ECON 206"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27821,
+    "Course #": "ECON 222",
+    "Sc": 1,
+    "Title": "LABOR ECONOMICS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 45,
+    "Enr": 43,
+    "Instructor": "Wayne Gray",
+    "Modality": "Hybrid",
+    "Days": "MR",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "JC001",
+    "Comments": {
+      "Prereq.": "P=ECON 10 OR 100 & ECON 11"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27820,
+    "Course #": "ECON 248",
+    "Sc": 1,
+    "Title": "LIVING ON THE EDGE?",
+    "Attribute": "HP",
+    "Units": "1",
+    "CAP": 25,
+    "Enr": 20,
+    "Instructor": "John Brown",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=ECON 10 & 11"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 25961,
+    "Course #": "ECON 256",
+    "Sc": 1,
+    "Title": "MODELING ECOLOGIC-ECONOMIC SYS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 8,
+    "Instructor": "Dana Bauer",
+    "Modality": "OnlineIn-person",
+    "Days": "TF",
+    "Times": "12:00 PM - 01:15 PM12:00 PM - 01:15 PM",
+    "Room": "ONLINEJC105",
+    "Comments": {
+      "Prereq.": "P=ECON 10 & ECON 11 & ECON 160 (MIN. GRADE OF C- IN 160)"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23607,
+    "Course #": "ECON 265",
+    "Sc": 1,
+    "Title": "ECONOMETRICS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 26,
+    "Enr": 27,
+    "Instructor": "Roxane Anderton",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "JC204",
+    "Comments": {
+      "Prereq.": "P= ECON 010, 011 & 160; MUST REGISTER FOR LAB"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23608,
+    "Course #": "ECON 265",
+    "Sc": 901,
+    "Title": "LAB: ECONOMETRICS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 13,
+    "Enr": 15,
+    "Instructor": "Roxane Anderton",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "JC105",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23609,
+    "Course #": "ECON 265",
+    "Sc": 902,
+    "Title": "LAB: ECONOMETRICS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 13,
+    "Enr": 12,
+    "Instructor": "Roxane Anderton",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "05:00 PM - 05:50 PM",
+    "Room": "JC105",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20014,
+    "Course #": "ECON 271",
+    "Sc": 1,
+    "Title": "INTRO TO MATHEMATICAL ECON",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 20,
+    "Enr": 9,
+    "Instructor": "Roxane Anderton",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "ASEC304",
+    "Comments": {
+      "Prereq.": "P= ECON 010; ECON 011; MATH 119 OR MATH 120 OR MATH 124"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20837,
+    "Course #": "ECON 297",
+    "Sc": 1,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 11,
+    "Instructor": "Wayne Gray",
+    "Modality": "In-person",
+    "Days": "M",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "JC106",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 23544,
+    "Course #": "ECON 298",
     "Sc": 0,
     "Title": "INTERNSHIP",
     "Attribute": "",
-    "Units": "Var",
+    "Units": "1",
     "CAP": 0,
     "Enr": 0,
-    "Instructor": "_",
+    "Instructor": "",
     "Modality": "Online",
     "Days": "-",
     "Times": "-",
@@ -285,15 +988,15 @@
     "Perm Only": "Y"
   },
   {
-    "CRN": 34006,
-    "Course #": "CSCI 299",
+    "CRN": 20839,
+    "Course #": "ECON 299",
     "Sc": 0,
     "Title": "DIRECTED STUDY",
-    "Attribute": "_",
+    "Attribute": "",
     "Units": "1",
     "CAP": 0,
     "Enr": 0,
-    "Instructor": "-",
+    "Instructor": "",
     "Modality": "Online",
     "Days": "-",
     "Times": "-",
@@ -302,5 +1005,3843 @@
       "Prereq.": "CONTACT A FACULTY MEMBER TO ARRANGE"
     },
     "Perm Only": "Y"
+  },
+  {
+    "CRN": 20016,
+    "Course #": "ECON 301",
+    "Sc": 1,
+    "Title": "MICROECONOMICS-FOUNDATIONS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 4,
+    "Instructor": "Junfu Zhang",
+    "Modality": "Hybrid",
+    "Days": "MR",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "JC220",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24553,
+    "Course #": "ECON 304",
+    "Sc": 1,
+    "Title": "MACROECONOMICS II: BUSINESS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 11,
+    "Instructor": "Edouard Wemy",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "JC204",
+    "Comments": {
+      "Prereq.": "P=ECON 303"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27825,
+    "Course #": "ECON 307",
+    "Sc": 1,
+    "Title": "INTERNATIONAL ECONOMICS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 18,
+    "Enr": 5,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ASEC304",
+    "Comments": {
+      "Prereq.": "P=ECON 302"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23906,
+    "Course #": "ECON 317",
+    "Sc": 1,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Wayne Gray",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24317,
+    "Course #": "ECON 317",
+    "Sc": 3,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Robert Johnston",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24771,
+    "Course #": "ECON 317",
+    "Sc": 4,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Junfu Zhang",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25208,
+    "Course #": "ECON 317",
+    "Sc": 5,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "John Brown",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25209,
+    "Course #": "ECON 317",
+    "Sc": 6,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Sang Hoo Bae",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25210,
+    "Course #": "ECON 317",
+    "Sc": 7,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Jacqueline Geoghegan",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25211,
+    "Course #": "ECON 317",
+    "Sc": 8,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "David Cuberes",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26795,
+    "Course #": "ECON 317",
+    "Sc": 9,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25213,
+    "Course #": "ECON 317",
+    "Sc": 10,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 7,
+    "Instructor": "Magda Tsaneva",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25957,
+    "Course #": "ECON 317",
+    "Sc": 11,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Edouard Wemy",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27822,
+    "Course #": "ECON 322",
+    "Sc": 1,
+    "Title": "LABOR ECONOMICS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 45,
+    "Enr": 43,
+    "Instructor": "Wayne Gray",
+    "Modality": "HybridIn-person",
+    "Days": "MRR",
+    "Times": "02:50 PM - 04:05 PM04:15 PM - 05:30 PM",
+    "Room": "JC001JC001",
+    "Comments": {
+      "Prereq.": "P=ECON 301 & 302"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27824,
+    "Course #": "ECON 328",
+    "Sc": 1,
+    "Title": "ECON GROWTH & DEVELOPMENT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 18,
+    "Enr": 13,
+    "Instructor": "Magda Tsaneva",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "JC102",
+    "Comments": {
+      "Prereq.": "P=ECON 302"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20170,
+    "Course #": "ECON 360",
+    "Sc": 1,
+    "Title": "PROBABILITY & STATISTICS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 22,
+    "Enr": 16,
+    "Instructor": "Michael Satz",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27823,
+    "Course #": "ECON 368",
+    "Sc": 1,
+    "Title": "RSRCH SM:FORMULAT'G RSRCH PROJ",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 18,
+    "Enr": 17,
+    "Instructor": "Junfu Zhang",
+    "Modality": "In-person",
+    "Days": "M",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "JC220",
+    "Comments": {
+      "Prereq.": "P=ECON 301 & 302"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20022,
+    "Course #": "ECON 371",
+    "Sc": 1,
+    "Title": "INTRO TO MATHEMATICAL ECON",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 20,
+    "Enr": 9,
+    "Instructor": "Roxane Anderton",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "ASEC304",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23907,
+    "Course #": "ECON 385",
+    "Sc": 1,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 3,
+    "Instructor": "Wayne Gray",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24906,
+    "Course #": "ECON 385",
+    "Sc": 4,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Jacqueline Geoghegan",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24907,
+    "Course #": "ECON 385",
+    "Sc": 5,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Robert Johnston",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25214,
+    "Course #": "ECON 385",
+    "Sc": 6,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "John Brown",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25215,
+    "Course #": "ECON 385",
+    "Sc": 7,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Sang Hoo Bae",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25216,
+    "Course #": "ECON 385",
+    "Sc": 8,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "David Cuberes",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25217,
+    "Course #": "ECON 385",
+    "Sc": 9,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Junfu Zhang",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25218,
+    "Course #": "ECON 385",
+    "Sc": 10,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Magda Tsaneva",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25958,
+    "Course #": "ECON 385",
+    "Sc": 11,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Edouard Wemy",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26796,
+    "Course #": "ECON 385",
+    "Sc": 13,
+    "Title": "PHD PROPOSAL WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24908,
+    "Course #": "ECON 394",
+    "Sc": 1,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Robert Johnston",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25018,
+    "Course #": "ECON 394",
+    "Sc": 2,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Wayne Gray",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25219,
+    "Course #": "ECON 394",
+    "Sc": 3,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "John Brown",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25220,
+    "Course #": "ECON 394",
+    "Sc": 4,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "David Cuberes",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25221,
+    "Course #": "ECON 394",
+    "Sc": 5,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Jacqueline Geoghegan",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25222,
+    "Course #": "ECON 394",
+    "Sc": 6,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Junfu Zhang",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25223,
+    "Course #": "ECON 394",
+    "Sc": 7,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Sang Hoo Bae",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25225,
+    "Course #": "ECON 394",
+    "Sc": 9,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Magda Tsaneva",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRAITON"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 25959,
+    "Course #": "ECON 394",
+    "Sc": 10,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Edouard Wemy",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26797,
+    "Course #": "ECON 394",
+    "Sc": 11,
+    "Title": "DISSERTATION WRITING",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20018,
+    "Course #": "ECON 395",
+    "Sc": 1,
+    "Title": "DEPARTMENT COLLOQUIUM",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 40,
+    "Enr": 28,
+    "Instructor": "Suprabha Baniya",
+    "Modality": "Online",
+    "Days": "M",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23586,
+    "Course #": "ECON 399",
+    "Sc": 0,
+    "Title": "DIRECTED STUDY",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": ""
+  },
+  {
+    "CRN": 27999,
+    "Course #": "PSYC 050",
+    "Sc": 1,
+    "Title": "THE PSYCHOLOGY OF PREJUDICE",
+    "Attribute": "DIFYIGP",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 18,
+    "Instructor": "Andrew Stewart",
+    "Modality": "In-person",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "JC218",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS *"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28000,
+    "Course #": "PSYC 080",
+    "Sc": 1,
+    "Title": "ZEN & PSYC CONTEMPLATIVE PRCT",
+    "Attribute": "FYIVP",
+    "Units": "1",
+    "CAP": 18,
+    "Enr": 18,
+    "Instructor": "James Cordova",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28001,
+    "Course #": "PSYC 090",
+    "Sc": 1,
+    "Title": "PSYCHOLOGY OF BILINGUALISM",
+    "Attribute": "FYIVE",
+    "Units": "1",
+    "CAP": 18,
+    "Enr": 18,
+    "Instructor": "Alena Esposito",
+    "Modality": "In-personIn-person",
+    "Days": "MWM",
+    "Times": "06:00 PM - 07:15 PM06:00 PM - 07:15 PM",
+    "Room": "JC217JC218",
+    "Comments": {
+      "Prereq.": "P=IDND 018 OR VE PLACEMENT; FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20237,
+    "Course #": "PSYC 101",
+    "Sc": 1,
+    "Title": "GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 160,
+    "Enr": 159,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "MUST REGISTER FOR DISCUSSION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20243,
+    "Course #": "PSYC 101",
+    "Sc": 901,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20244,
+    "Course #": "PSYC 101",
+    "Sc": 902,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20246,
+    "Course #": "PSYC 101",
+    "Sc": 903,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20248,
+    "Course #": "PSYC 101",
+    "Sc": 904,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20250,
+    "Course #": "PSYC 101",
+    "Sc": 905,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20252,
+    "Course #": "PSYC 101",
+    "Sc": 906,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 04:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20255,
+    "Course #": "PSYC 101",
+    "Sc": 907,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 04:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20258,
+    "Course #": "PSYC 101",
+    "Sc": 908,
+    "Title": "DISC: GENERAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 04:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20262,
+    "Course #": "PSYC 105",
+    "Sc": 1,
+    "Title": "STATISTICS",
+    "Attribute": "FA",
+    "Units": "1",
+    "CAP": 60,
+    "Enr": 61,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P= PSYC 101 & MATH PLACEMENT; MUST REGISTER FOR LAB"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27289,
+    "Course #": "PSYC 105",
+    "Sc": 901,
+    "Title": "LAB: STATISTICS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20265,
+    "Course #": "PSYC 105",
+    "Sc": 902,
+    "Title": "LAB: STATISTICS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23023,
+    "Course #": "PSYC 105",
+    "Sc": 903,
+    "Title": "LAB: STATISTICS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20278,
+    "Course #": "PSYC 108",
+    "Sc": 1,
+    "Title": "EXPERIMENTAL METHODS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 60,
+    "Enr": 58,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P= PSYC 101 & 105; MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20283,
+    "Course #": "PSYC 108",
+    "Sc": 901,
+    "Title": "DISC: EXPERIMENTAL METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 15,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20284,
+    "Course #": "PSYC 108",
+    "Sc": 902,
+    "Title": "DISC: EXPERIMENTAL METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 22,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24613,
+    "Course #": "PSYC 108",
+    "Sc": 903,
+    "Title": "DISC: EXPERIMENTAL METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20286,
+    "Course #": "PSYC 109",
+    "Sc": 1,
+    "Title": "QUALITATIVE METHODS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 60,
+    "Enr": 58,
+    "Instructor": "Amy Heberle",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P= PSYC 101 OR PERM; MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20287,
+    "Course #": "PSYC 109",
+    "Sc": 901,
+    "Title": "DISC: QUALITATIVE METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Amy Heberle",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "04:00 PM - 04:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20288,
+    "Course #": "PSYC 109",
+    "Sc": 902,
+    "Title": "DISC: QUALITATIVE METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Amy Heberle",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "01:25 PM - 02:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20289,
+    "Course #": "PSYC 109",
+    "Sc": 903,
+    "Title": "DISC: QUALITATIVE METHODS",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 18,
+    "Instructor": "Amy Heberle",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 12:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27970,
+    "Course #": "PSYC 130",
+    "Sc": 1,
+    "Title": "PSYCHOLOGY OF LEARNING",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 27,
+    "Instructor": "Rebecca Babcock Fenerci",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101, MUST REGISTER FOR DISC SECT"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27971,
+    "Course #": "PSYC 130",
+    "Sc": 901,
+    "Title": "DISC: PSYCHOLOGY OF LEARNING",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Rebecca Babcock Fenerci",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "04:00 PM - 04:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27972,
+    "Course #": "PSYC 130",
+    "Sc": 902,
+    "Title": "DISC: PSYCHOLOGY OF LEARNING",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 8,
+    "Instructor": "Rebecca Babcock Fenerci",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "05:00 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27331,
+    "Course #": "PSYC 144",
+    "Sc": 1,
+    "Title": "INTERPERSONAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 43,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101;MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27973,
+    "Course #": "PSYC 144",
+    "Sc": 901,
+    "Title": "DISC: INTERPERSONAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "01:25 PM - 02:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27974,
+    "Course #": "PSYC 144",
+    "Sc": 902,
+    "Title": "DISC: INTERPERSONAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 24,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 03:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27981,
+    "Course #": "PSYC 152",
+    "Sc": 1,
+    "Title": "ADOLESCENT DEVELOPMENT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 30,
+    "Instructor": "Elena Zaretsky",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101; MUST REGISTER FOR DISC SECT"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27983,
+    "Course #": "PSYC 152",
+    "Sc": 901,
+    "Title": "DISC: ADOLESCENT DEVELOPMENT",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 11,
+    "Instructor": "Elena Zaretsky",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27984,
+    "Course #": "PSYC 152",
+    "Sc": 902,
+    "Title": "DISC: ADOLESCENT DEVELOPMENT",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Elena Zaretsky",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "12:00 PM - 12:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27976,
+    "Course #": "PSYC 153",
+    "Sc": 1,
+    "Title": "HUMAN DEV ACROSS THE LIFESPAN",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 40,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101; MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27977,
+    "Course #": "PSYC 153",
+    "Sc": 901,
+    "Title": "DISC:HUMAN DEV ACROSS LIFESPAN",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 12:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27978,
+    "Course #": "PSYC 153",
+    "Sc": 902,
+    "Title": "DISC:HUMAN DEV ACROSS LIFESPAN",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "03:00 PM - 03:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27335,
+    "Course #": "PSYC 170",
+    "Sc": 1,
+    "Title": "INTRO TO SOCIAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 40,
+    "Enr": 37,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101; MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27336,
+    "Course #": "PSYC 170",
+    "Sc": 901,
+    "Title": "DISC: INTRO TO SOCIAL PSYC",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "12:00 PM - 12:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27337,
+    "Course #": "PSYC 170",
+    "Sc": 902,
+    "Title": "DISC: INTRO TO SOCIAL PSYC",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 20,
+    "Enr": 16,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "01:25 PM - 02:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20301,
+    "Course #": "PSYC 173",
+    "Sc": 1,
+    "Title": "INTRO TO ABNORMAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 50,
+    "Enr": 50,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P= PSYC 101; MUST REGISTER FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27986,
+    "Course #": "PSYC 173",
+    "Sc": 901,
+    "Title": "DISC: INTRO TO ABNORMAL PSYC",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 25,
+    "Enr": 25,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "01:25 PM - 02:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27987,
+    "Course #": "PSYC 173",
+    "Sc": 902,
+    "Title": "DISC: INTRO TO ABNORMAL PSYC",
+    "Attribute": "",
+    "Units": "0",
+    "CAP": 25,
+    "Enr": 25,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "12:00 PM - 12:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27441,
+    "Course #": "PSYC 202",
+    "Sc": 1,
+    "Title": "LAB IN DEVELOPMENTAL PSYC",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 16,
+    "Instructor": "Deeya Mitra",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "JC102",
+    "Comments": {
+      "Prereq.": "P=PSYC 101, 105, 108, & 109 OR PERM"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24680,
+    "Course #": "PSYC 203",
+    "Sc": 1,
+    "Title": "RES STIGMA, INTERSEC, & HEALTH",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 4,
+    "Enr": 1,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101, 105, 108 AND PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26112,
+    "Course #": "PSYC 205",
+    "Sc": 1,
+    "Title": "RSRCH CHILD DEV ACROSS CONTXTS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 5,
+    "Enr": 8,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 150 OR 152 OR 153; & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24681,
+    "Course #": "PSYC 210",
+    "Sc": 1,
+    "Title": "RESEARCH IDEOLOGY & VIOLENCE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 5,
+    "Enr": 4,
+    "Instructor": "Andrew Stewart",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 105, 108 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27381,
+    "Course #": "PSYC 217",
+    "Sc": 1,
+    "Title": "RSCH LEARN, LANG, & COGNITION",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 15,
+    "Enr": 10,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 108 & 109; CHOOSE EITHER .5 OR 1 UNIT"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27585,
+    "Course #": "PSYC 221",
+    "Sc": 1,
+    "Title": "RESEARCH IN SOCIAL PSYCHOLOGY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 5,
+    "Enr": 6,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "M",
+    "Times": "09:00 AM - 10:30 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101 & 108 & 109"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20398,
+    "Course #": "PSYC 225",
+    "Sc": 1,
+    "Title": "RES COLLECTIVE VICTIM & OPP",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 7,
+    "Enr": 7,
+    "Instructor": "Johanna Vollhardt",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P= PSYC 105 & 108 & 109 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27405,
+    "Course #": "PSYC 226",
+    "Sc": 1,
+    "Title": "RESEARCH: MEN'S MENTAL HEALTH",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 2,
+    "Enr": 0,
+    "Instructor": "Michael Addis",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20329,
+    "Course #": "PSYC 231",
+    "Sc": 1,
+    "Title": "COUPLES RESEARCH",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 12,
+    "Enr": 7,
+    "Instructor": "James Cordova",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 105,108 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26129,
+    "Course #": "PSYC 232",
+    "Sc": 1,
+    "Title": "RESEARCH IN COMMUNITY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 5,
+    "Enr": 1,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20332,
+    "Course #": "PSYC 235",
+    "Sc": 1,
+    "Title": "RES DIVERSE FAM & SEXUALITIES",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 9,
+    "Enr": 12,
+    "Instructor": "Abbie Goldberg",
+    "Modality": "In-person",
+    "Days": "M",
+    "Times": "02:00 PM - 03:00 PM",
+    "Room": "JC370",
+    "Comments": {
+      "Prereq.": "P=PSYC 101 & PERM"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27965,
+    "Course #": "PSYC 239",
+    "Sc": 1,
+    "Title": "PROSOC BEHVR & COLLCT ACTION",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 13,
+    "Instructor": "Ozden Ulug",
+    "Modality": "Online",
+    "Days": "M",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101, 105 , 108 & 109"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27964,
+    "Course #": "PSYC 251",
+    "Sc": 1,
+    "Title": "SP TOP:PSYC OF RELIGION",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 15,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 105"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27963,
+    "Course #": "PSYC 253",
+    "Sc": 1,
+    "Title": "PRETEND PLAY & CHILD DEVELPMNT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 18,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "M",
+    "Times": "09:00 AM - 11:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 108 OR 109 & 150 OR 153"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27966,
+    "Course #": "PSYC 259",
+    "Sc": 1,
+    "Title": "PSYCHOTHERAPIES",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 18,
+    "Instructor": "Rebecca Babcock Fenerci",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 108"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 26085,
+    "Course #": "PSYC 265",
+    "Sc": 1,
+    "Title": "PSYCHOLOGY OF MEN",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 14,
+    "Enr": 13,
+    "Instructor": "Michael Addis",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 101 & ONE 1ST SEMINAR COURSE (236-259)"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27996,
+    "Course #": "PSYC 286",
+    "Sc": 1,
+    "Title": "ADV TP:COLLEGE EMERG'G ADULTS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 3,
+    "Instructor": "Elizabeth Pufall Jones",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=101 & 108 & 109 & 150/153 & A FIRST SEMINAR (PSYC 236-259)"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28002,
+    "Course #": "PSYC 288",
+    "Sc": 1,
+    "Title": "COPING COLLECTV VIOL & OPPRESN",
+    "Attribute": "DI",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 16,
+    "Instructor": "Johanna Vollhardt",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=PSYC 109 & ONE 150-LEVEL (150-159) & ONE 170-LEVEL (170-179) & ONE 1ST SEM (236-259)"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24672,
+    "Course #": "PSYC 292",
+    "Sc": 1,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Wendy Grolnick",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24673,
+    "Course #": "PSYC 292",
+    "Sc": 2,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 3,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20345,
+    "Course #": "PSYC 292",
+    "Sc": 3,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20475,
+    "Course #": "PSYC 292",
+    "Sc": 4,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Michael Addis",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24674,
+    "Course #": "PSYC 292",
+    "Sc": 5,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Andrew Stewart",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20477,
+    "Course #": "PSYC 292",
+    "Sc": 6,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20478,
+    "Course #": "PSYC 292",
+    "Sc": 7,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "James Cordova",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20480,
+    "Course #": "PSYC 292",
+    "Sc": 9,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Abbie Goldberg",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27383,
+    "Course #": "PSYC 292",
+    "Sc": 10,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27384,
+    "Course #": "PSYC 292",
+    "Sc": 11,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Nancy Budwig",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20483,
+    "Course #": "PSYC 292",
+    "Sc": 12,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Johanna Vollhardt",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27386,
+    "Course #": "PSYC 292",
+    "Sc": 13,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 5,
+    "Enr": 2,
+    "Instructor": "Amy Heberle",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20486,
+    "Course #": "PSYC 292",
+    "Sc": 14,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Michael Bamberg",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20487,
+    "Course #": "PSYC 292",
+    "Sc": 15,
+    "Title": "CAPSTONE",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Kathleen Palm Reed",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 26737,
+    "Course #": "PSYC 297",
+    "Sc": 1,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 3,
+    "Enr": 4,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27385,
+    "Course #": "PSYC 297",
+    "Sc": 2,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Nicole Overstreet",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 24677,
+    "Course #": "PSYC 297",
+    "Sc": 4,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 0,
+    "Instructor": "Justin Laplante",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20953,
+    "Course #": "PSYC 297",
+    "Sc": 8,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Johanna Vollhardt",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20957,
+    "Course #": "PSYC 297",
+    "Sc": 12,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20960,
+    "Course #": "PSYC 297",
+    "Sc": 15,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20962,
+    "Course #": "PSYC 297",
+    "Sc": 17,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Abbie Goldberg",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 21173,
+    "Course #": "PSYC 297",
+    "Sc": 18,
+    "Title": "HONORS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Nancy Budwig",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 22778,
+    "Course #": "PSYC 298",
+    "Sc": 0,
+    "Title": "INTERNSHIP",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "CONTACT CAREER SERVICES TO ARRANGE"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 20963,
+    "Course #": "PSYC 299",
+    "Sc": 0,
+    "Title": "DIRECTED STUDY",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 0,
+    "Enr": 0,
+    "Instructor": "",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "CONTACT A FACULTY MEMBER TO ARRANGE"
+    },
+    "Perm Only": "Y"
+  },
+  {
+    "CRN": 27967,
+    "Course #": "PSYC 300",
+    "Sc": 1,
+    "Title": "DEVELOPMENTAL FORUM",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 5,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20351,
+    "Course #": "PSYC 301",
+    "Sc": 1,
+    "Title": "HIST,THEORY, METHOD:RSCH DESGN",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 6,
+    "Instructor": "Johanna Vollhardt",
+    "Modality": "Online",
+    "Days": "F",
+    "Times": "09:00 AM - 11:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20353,
+    "Course #": "PSYC 302",
+    "Sc": 1,
+    "Title": "STATISTICAL METHODS",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 15,
+    "Enr": 7,
+    "Instructor": "Andrew Stewart",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "09:00 AM - 11:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20354,
+    "Course #": "PSYC 303",
+    "Sc": 1,
+    "Title": "ASSESSMENT",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 6,
+    "Enr": 4,
+    "Instructor": "Cathleen Crider",
+    "Modality": "In-person",
+    "Days": "R",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "JC370",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20357,
+    "Course #": "PSYC 308",
+    "Sc": 1,
+    "Title": "SOCIAL FORUM",
+    "Attribute": "",
+    "Units": "1",
+    "CAP": 10,
+    "Enr": 9,
+    "Instructor": "Andrew Stewart",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "10:30 AM - 12:00 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL ONLY;"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23882,
+    "Course #": "PSYC 317",
+    "Sc": 1,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Michael Addis",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23883,
+    "Course #": "PSYC 317",
+    "Sc": 2,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Jeffrey Arnett",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23884,
+    "Course #": "PSYC 317",
+    "Sc": 3,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Michael Bamberg",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23885,
+    "Course #": "PSYC 317",
+    "Sc": 4,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Esteban Cardemil",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23886,
+    "Course #": "PSYC 317",
+    "Sc": 5,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 3,
+    "Instructor": "James Cordova",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 26645,
+    "Course #": "PSYC 317",
+    "Sc": 6,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Ana Kamille Marcelo",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28381,
+    "Course #": "PSYC 317",
+    "Sc": 7,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Nancy Budwig",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REG"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23889,
+    "Course #": "PSYC 317",
+    "Sc": 8,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Abbie Goldberg",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23890,
+    "Course #": "PSYC 317",
+    "Sc": 9,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Wendy Grolnick",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 26646,
+    "Course #": "PSYC 317",
+    "Sc": 11,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 1,
+    "Instructor": "Alena Esposito",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23894,
+    "Course #": "PSYC 317",
+    "Sc": 13,
+    "Title": "RESEARCH",
+    "Attribute": "",
+    "Units": "Var",
+    "CAP": 10,
+    "Enr": 2,
+    "Instructor": "Kathleen Palm Reed",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "GRADED PASS/FAIL; MUST CHOOSE NUMBER OF UNITS DURING REGISTRATION"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27321,
+    "Course #": "ARTH 125",
+    "Sc": 1,
+    "Title": "AGE OF MICHELANGELO",
+    "Attribute": "APFYI",
+    "Units": 1,
+    "CAP": 14,
+    "Enr": 14,
+    "Instructor": "John Garton",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "TC112",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR 1ST YR INCOMING STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23692,
+    "Course #": "ARTH 156",
+    "Sc": 1,
+    "Title": "AFRICAN ART AND ARCHITECTURE",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 28,
+    "Enr": 28,
+    "Instructor": "Barbara Beall",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27890,
+    "Course #": "ARTH 161",
+    "Sc": 1,
+    "Title": "THE ARTS OF ISLAM",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 28,
+    "Enr": 28,
+    "Instructor": "Barbara Beall",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20588,
+    "Course #": "ARTS 100",
+    "Sc": 1,
+    "Title": "VISUAL STUDIES: 2D DESIGN",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 15,
+    "Instructor": "Valerie Claff",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "09:00 AM - 11:40 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20589,
+    "Course #": "ARTS 102",
+    "Sc": 1,
+    "Title": "DRAWING: EYE, MIND, HAND",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 17,
+    "Enr": 17,
+    "Instructor": "Toby Sisson",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20590,
+    "Course #": "ARTS 102",
+    "Sc": 2,
+    "Title": "DRAWING: EYE, MIND, HAND",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 17,
+    "Enr": 17,
+    "Instructor": "Jan Johnson",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "09:00 AM - 11:40 AM",
+    "Room": "TC100",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22475,
+    "Course #": "ARTS 119",
+    "Sc": 1,
+    "Title": "INTRO PHOTO MEDIA",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 16,
+    "Instructor": "Eric Nichols",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "06:00 PM - 08:35 PM",
+    "Room": "TC002",
+    "Comments": {
+      "Prereq.": "$125 LAB FEE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20598,
+    "Course #": "ARTS 124",
+    "Sc": 1,
+    "Title": "INTRO TO GRAPHIC DESIGN",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 16,
+    "Instructor": "Meridyth Espindola",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "09:00 AM - 11:40 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20599,
+    "Course #": "ARTS 124",
+    "Sc": 2,
+    "Title": "INTRO TO GRAPHIC DESIGN",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 18,
+    "Instructor": "Sherry Freyermuth",
+    "Modality": "Hybrid",
+    "Days": "MR",
+    "Times": "01:25 PM - 04:05 PM",
+    "Room": "TC200",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20600,
+    "Course #": "ARTS 132",
+    "Sc": 1,
+    "Title": "PAINTING I: SELF MADE WORLDS",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 17,
+    "Enr": 17,
+    "Instructor": "Amy Wynne",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "01:25 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20601,
+    "Course #": "ARTS 136",
+    "Sc": 1,
+    "Title": "SCULPTURAL DYNAMICS",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 12,
+    "Enr": 12,
+    "Instructor": "Johnathan Derry",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "09:00 AM - 11:40 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22869,
+    "Course #": "ARTS 136",
+    "Sc": 2,
+    "Title": "SCULPTURAL DYNAMICS",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 12,
+    "Enr": 8,
+    "Instructor": "Johnathan Derry",
+    "Modality": "Online",
+    "Days": "TF",
+    "Times": "01:25 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22158,
+    "Course #": "ARTS 158",
+    "Sc": 1,
+    "Title": "PRINTMAKING I",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 12,
+    "Enr": 12,
+    "Instructor": "Antonio Fonseca",
+    "Modality": "Hybrid",
+    "Days": "MW",
+    "Times": "06:00 PM - 08:40 PM",
+    "Room": "TC001",
+    "Comments": {
+      "Prereq.": "$100 LAB FEE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 25260,
+    "Course #": "ARTS 158",
+    "Sc": 2,
+    "Title": "PRINTMAKING I",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 12,
+    "Enr": 10,
+    "Instructor": "Jan Johnson",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "01:25 PM - 04:05 PM",
+    "Room": "TC001",
+    "Comments": {
+      "Prereq.": "$100 LAB FEE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 25907,
+    "Course #": "ENG 123",
+    "Sc": 1,
+    "Title": "VOICING THE VERSE:POETRY PERF",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "Reginald Gibson",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "5 SEATS RESERVED FOR 1ST YEAR INCOMING STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27934,
+    "Course #": "ENG 292",
+    "Sc": 1,
+    "Title": "TONI MORRISON",
+    "Attribute": "APDI",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 21,
+    "Instructor": "Kourtney Senquiz",
+    "Modality": "Online",
+    "Days": "M",
+    "Times": "09:00 AM - 11:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27906,
+    "Course #": "MUSC 013",
+    "Sc": 1,
+    "Title": "JAZZ BIOGRAPHIES",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 19,
+    "Instructor": "John Aylward",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27186,
+    "Course #": "MUSC 021",
+    "Sc": 1,
+    "Title": "MAKING MUSIC",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "John Freyermuth",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "FMC",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20513,
+    "Course #": "MUSC 141",
+    "Sc": 1,
+    "Title": "COMPUTERS AND MUSIC",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "John Freyermuth",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "FMC",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28221,
+    "Course #": "MUSC 141",
+    "Sc": 2,
+    "Title": "COMPUTERS AND MUSIC",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "John Freyermuth",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "FMC",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 21062,
+    "Course #": "SCRN 101",
+    "Sc": 1,
+    "Title": "FOUNDATIONS OF SCREEN STUDIES",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 50,
+    "Enr": 50,
+    "Instructor": "Hugh Manon",
+    "Modality": "Hybrid",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": "1ST YRS & SOPH ONLY; OTHERS BY PERM"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20630,
+    "Course #": "SCRN 107",
+    "Sc": 1,
+    "Title": "INTRO TO DIGITAL FILMMAKING",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 16,
+    "Enr": 14,
+    "Instructor": "Soren Sorensen",
+    "Modality": "HybridHybrid",
+    "Days": "MM",
+    "Times": "09:00 AM - 11:50 AM09:00 AM - 11:50 AM",
+    "Room": "TC306TC305",
+    "Comments": {
+      "Prereq.": "SCRN AND MCA MAJORS ONLY OR PERM; $75 LAB FEE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20937,
+    "Course #": "SCRN 107",
+    "Sc": 2,
+    "Title": "INTRO TO DIGITAL FILMMAKING",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 16,
+    "Enr": 16,
+    "Instructor": "Soren Sorensen",
+    "Modality": "HybridHybrid",
+    "Days": "MM",
+    "Times": "02:50 PM - 05:50 PM02:50 PM - 05:50 PM",
+    "Room": "TC305TC306",
+    "Comments": {
+      "Prereq.": "$75 LAB FEE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 26584,
+    "Course #": "SCRN 130",
+    "Sc": 1,
+    "Title": "FILM GENRE:",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Derek Dubois",
+    "Modality": "Hybrid",
+    "Days": "W",
+    "Times": "06:00 PM - 09:00 PM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20654,
+    "Course #": "TA 112",
+    "Sc": 1,
+    "Title": "CREATIVE ACTOR",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Daniel Balel",
+    "Modality": "In-person",
+    "Days": "T",
+    "Times": "06:00 PM - 09:00 PM",
+    "Room": "LCTE",
+    "Comments": {
+      "Prereq.": "1ST YR & SOPH STUDENTS ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 23981,
+    "Course #": "TA 112",
+    "Sc": 2,
+    "Title": "CREATIVE ACTOR",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Daniel Balel",
+    "Modality": "In-person",
+    "Days": "T",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "LCTE",
+    "Comments": {
+      "Prereq.": "1ST YR & SOPH STUDENTS ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 24519,
+    "Course #": "TA 125",
+    "Sc": 1,
+    "Title": "THEATRICAL/COSTUME DESIGN PROJ",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 16,
+    "Instructor": "Jessie Darrell-Jarbadan",
+    "Modality": "Hybrid",
+    "Days": "F",
+    "Times": "09:00 AM - 11:50 AM",
+    "Room": "LCTE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28214,
+    "Course #": "TA 129",
+    "Sc": 1,
+    "Title": "SCENIC DESIGN",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 18,
+    "Instructor": "Kevin McGerigle",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20666,
+    "Course #": "TA 130",
+    "Sc": 1,
+    "Title": "MODERN DANCE I",
+    "Attribute": "AP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 15,
+    "Instructor": "Audra Carabetta",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "GYM",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27484,
+    "Course #": "TA 164",
+    "Sc": 1,
+    "Title": "AMERICAN MUSICAL THEATRE",
+    "Attribute": "APFYI",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Kevin McGerigle",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "06:00 PM - 09:00 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR INCOMING 1ST YR STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37953,
+    "Course #": "ENT 105",
+    "Sc": 1,
+    "Title": "CREAT'G CULT INNOVATION & ENT",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Teresa Quinn",
+    "Modality": "In-person",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "JC120",
+    "Comments": {
+      "Prereq.": "1ST YRS & SOPH ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38432,
+    "Course #": "GEOG 248",
+    "Sc": 1,
+    "Title": "SOCIAL JUSTICE AND THE CITY",
+    "Attribute": "DIVP",
+    "Units": 1,
+    "CAP": 20,
+    "Enr": 20,
+    "Instructor": "Mark Davidson",
+    "Modality": "In-person",
+    "Days": "MF",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "JC217",
+    "Comments": {
+      "Prereq.": "FLEXIBLE MODALITY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38534,
+    "Course #": "JS 118",
+    "Sc": 1,
+    "Title": "INTRO TO THE HEBREW BIBLE II",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 24,
+    "Instructor": "Everett Fox",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37123,
+    "Course #": "JS 125",
+    "Sc": 1,
+    "Title": "CHANGING IMAGES OF KING DAVID",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 27,
+    "Instructor": "Everett Fox",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 30699,
+    "Course #": "MGMT 262",
+    "Sc": 1,
+    "Title": "BUSINESS ETHICS & LAW",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Will O'Brien",
+    "Modality": "Online",
+    "Days": "T",
+    "Times": "02:50 PM - 05:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "JR/SR ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 35818,
+    "Course #": "MGMT 262",
+    "Sc": 2,
+    "Title": "BUSINESS ETHICS & LAW",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 29,
+    "Instructor": "Steven Kennedy",
+    "Modality": "In-person",
+    "Days": "W",
+    "Times": "06:00 PM - 09:00 PM",
+    "Room": "BICKMULTI",
+    "Comments": {
+      "Prereq.": "SOPH, JRS & SRS ONLY"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38412,
+    "Course #": "PECO 101",
+    "Sc": 1,
+    "Title": "INTRODUCTION TO PEACE STUDIES",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 60,
+    "Enr": 72,
+    "Instructor": "Jude Fernando",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "06:00 PM - 07:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37158,
+    "Course #": "PHIL 105",
+    "Sc": 1,
+    "Title": "PERSONAL VALUES",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 29,
+    "Instructor": "Wes DeMarco",
+    "Modality": "Online",
+    "Days": "MWF",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37159,
+    "Course #": "PHIL 105",
+    "Sc": 2,
+    "Title": "PERSONAL VALUES",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 35,
+    "Enr": 35,
+    "Instructor": "Paul Bohan-Broderick",
+    "Modality": "In-person",
+    "Days": "MWF",
+    "Times": "09:00 AM - 09:50 AM",
+    "Room": "BICKMULTI",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38553,
+    "Course #": "PHIL 123",
+    "Sc": 1,
+    "Title": "SOCRATES AND ATHENS",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 15,
+    "Enr": 14,
+    "Instructor": "Ravi Sharma",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37862,
+    "Course #": "PHIL 130",
+    "Sc": 1,
+    "Title": "MEDICAL ETHICS",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 25,
+    "Enr": 27,
+    "Instructor": "Arden Ali",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 30189,
+    "Course #": "PHIL 131",
+    "Sc": 1,
+    "Title": "ENVIRONMENTAL ETHICS",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Patrick Derr",
+    "Modality": "Hybrid",
+    "Days": "TF",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "JC106",
+    "Comments": {
+      "Prereq.": "MUST REG FOR DISC"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 36428,
+    "Course #": "PHIL 131",
+    "Sc": 901,
+    "Title": "DISC: ENVIRONMENTAL ETHICS",
+    "Attribute": "VP",
+    "Units": 0,
+    "CAP": 10,
+    "Enr": 10,
+    "Instructor": "Patrick Derr",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "07:20 PM - 08:10 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 36429,
+    "Course #": "PHIL 131",
+    "Sc": 902,
+    "Title": "DISC: ENVIRONMENTAL ETHICS",
+    "Attribute": "VP",
+    "Units": 0,
+    "CAP": 10,
+    "Enr": 10,
+    "Instructor": "Patrick Derr",
+    "Modality": "Online",
+    "Days": "W",
+    "Times": "06:00 PM - 06:50 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 36430,
+    "Course #": "PHIL 131",
+    "Sc": 903,
+    "Title": "DISC: ENVIRONMENTAL ETHICS",
+    "Attribute": "VP",
+    "Units": 0,
+    "CAP": 10,
+    "Enr": 10,
+    "Instructor": "Patrick Derr",
+    "Modality": "Online",
+    "Days": "R",
+    "Times": "07:20 PM - 08:10 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 38550,
+    "Course #": "PHIL 169",
+    "Sc": 1,
+    "Title": "AESTHETICS",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Wiebke Deimling",
+    "Modality": "Hybrid",
+    "Days": "MW",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ASEC303",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 37164,
+    "Course #": "PHIL 270",
+    "Sc": 1,
+    "Title": "PHILOSOPHY OF LAW",
+    "Attribute": "VP",
+    "Units": 1,
+    "CAP": 25,
+    "Enr": 23,
+    "Instructor": "Arden Ali",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=ONE PHIL COURSE OR PERM; LAS CAPSTONE"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27820,
+    "Course #": "ECON 248",
+    "Sc": 1,
+    "Title": "LIVING ON THE EDGE?",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 25,
+    "Enr": 20,
+    "Instructor": "John Brown",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "P=ECON 10 & 11"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 22988,
+    "Course #": "ENG 182",
+    "Sc": 1,
+    "Title": "AFRICAN AMERICAN LITERATURE I",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 25,
+    "Enr": 25,
+    "Instructor": "Kourtney Senquiz",
+    "Modality": "Online",
+    "Days": "-",
+    "Times": "-",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": "5 SEATS RESERVED FOR 1ST YEAR INCOMING STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28094,
+    "Course #": "GEOG 020",
+    "Sc": 1,
+    "Title": "AMERICAN CITIES: SPACES/PLACES",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Asha Best",
+    "Modality": "Online",
+    "Days": "MR",
+    "Times": "02:50 PM - 04:05 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27834,
+    "Course #": "HIST 011",
+    "Sc": 1,
+    "Title": "SURVEY OF U.S. HISTORY TO 1865",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 25,
+    "Enr": 26,
+    "Instructor": "Drew McCoy",
+    "Modality": "In-person",
+    "Days": "MWF",
+    "Times": "10:00 AM - 10:50 AM",
+    "Room": "GRACE",
+    "Comments": {
+      "Prereq.": "13 SEATS RESERVED FOR 1ST YEAR INCOMING STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27835,
+    "Course #": "HIST 040",
+    "Sc": 1,
+    "Title": "THE WITCH CRAZE",
+    "Attribute": "FYIHP",
+    "Units": 1,
+    "CAP": 16,
+    "Enr": 18,
+    "Instructor": "Nina Kushner",
+    "Modality": "In-person",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "JC215",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR INCOMING 1ST YR STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27836,
+    "Course #": "HIST 044",
+    "Sc": 1,
+    "Title": "PICKING UP THE GUN:HIS OF VIOL",
+    "Attribute": "FYIHP",
+    "Units": 1,
+    "CAP": 16,
+    "Enr": 18,
+    "Instructor": "Ousmane Power-Greene",
+    "Modality": "In-person",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "JF133",
+    "Comments": {
+      "Prereq.": "FIRST YEAR INTENSIVE; SEATS RESERVED FOR INCOMING 1ST YEAR STUDENTS*"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27837,
+    "Course #": "HIST 071",
+    "Sc": 1,
+    "Title": "INTRO TO EURO HIST: SINCE 1600",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Willem Klooster",
+    "Modality": "In-person",
+    "Days": "MR",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "DCLOUNGE",
+    "Comments": {
+      "Prereq.": "15 SEATS RESERVED FOR INCOMING FIRST YEAR STUDENTS"
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27838,
+    "Course #": "HIST 080",
+    "Sc": 1,
+    "Title": "INTRO TO MODERN EAST ASIA",
+    "Attribute": "DIHP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Lex Jing Lu",
+    "Modality": "In-person",
+    "Days": "TF",
+    "Times": "01:25 PM - 02:40 PM",
+    "Room": "TCRH",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 28004,
+    "Course #": "HIST 122",
+    "Sc": 1,
+    "Title": "JEWISH HIST ANC/MEDIVAL WRLD",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Elizabeth Imber",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "04:15 PM - 05:30 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27344,
+    "Course #": "HIST 128",
+    "Sc": 1,
+    "Title": "HISTORY OF MODERN ISRAEL",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 30,
+    "Instructor": "Elizabeth Imber",
+    "Modality": "Online",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27194,
+    "Course #": "HIST 135",
+    "Sc": 1,
+    "Title": "HISTORY OF ARMENIA",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 25,
+    "Instructor": "Taner Akcam",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "DCLOUNGE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27839,
+    "Course #": "HIST 165",
+    "Sc": 1,
+    "Title": "NAZI GERMANY & THE HOLOCAUST",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 44,
+    "Enr": 47,
+    "Instructor": "Thomas Kuehne",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "09:00 AM - 10:15 AM",
+    "Room": "JF320",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20733,
+    "Course #": "JS 117",
+    "Sc": 1,
+    "Title": "NARRATIVES: THE HEBREW BIBLE",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 29,
+    "Enr": 24,
+    "Instructor": "Everett Fox",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 20566,
+    "Course #": "PHIL 141",
+    "Sc": 1,
+    "Title": "HIST OF ANCIENT GREEK PHIL",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 30,
+    "Enr": 31,
+    "Instructor": "Ravi Sharma",
+    "Modality": "Online",
+    "Days": "MW",
+    "Times": "12:00 PM - 01:15 PM",
+    "Room": "ONLINE",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
+  },
+  {
+    "CRN": 27882,
+    "Course #": "SOC 258",
+    "Sc": 1,
+    "Title": "WOMEN IN JEWISH CULTURE",
+    "Attribute": "HP",
+    "Units": 1,
+    "CAP": 23,
+    "Enr": 22,
+    "Instructor": "Shelly Tenenbaum",
+    "Modality": "In-person",
+    "Days": "TR",
+    "Times": "10:25 AM - 11:40 AM",
+    "Room": "ASEC202",
+    "Comments": {
+      "Prereq.": ""
+    },
+    "Perm Only": "N"
   }
 ]

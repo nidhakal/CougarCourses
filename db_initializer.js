@@ -30,12 +30,13 @@ const courseSchema = new mongoose.Schema({
     Days: String,
     Times: String,
     Room: String,
+    Offering:String
 })
 
 
 const plsSchema = new mongoose.Schema({
-    name: String,
-    attribute: String,
+    Name: String,
+    Attribute: String,
 })
 
 
@@ -80,13 +81,14 @@ jsonList1.forEach(function (course) {
         "Days": course["Days"],
         "Times": course["Times"],
         "Room": course["Room"],
+        "Offering": course["Offering"]
     });
 });
 
 jsonList2.forEach(function (course) {
     PLScourseList.push({
-        "name": course["Name"],
-        "attribute": course["Attribute"]
+        "Name": course["Name"],
+        "Attribute": course["Attribute"]
     });
 });
 
